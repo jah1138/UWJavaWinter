@@ -7,7 +7,7 @@ import java.util.*;
 
 public class BookTest {
 
-    private static String goodDescription = "We hold these truths to be self-evident, " +
+    private static final String goodDescription = "We hold these truths to be self-evident, " +
             "that all men are created equal, that they are endowed by their Creator " +
             "with certain unalienable Rights, that among these are Life, Liberty, and " +
             "the pursuit of Happiness. That to secure these rights, Governments are " +
@@ -17,15 +17,15 @@ public class BookTest {
             "to institute new Government, laying its foundation on such principles and " +
             "organizing its powers in such form, as to them shall seem most likely to " +
             "effect their Safety and Happiness.";
-    private static int goodTotalWords = 110;
-    private static int goodUniqueWords = 71;
-    private static Map<String, Integer> testWordsToCount = new HashMap<String, Integer>();
+    private static final int goodTotalWords = 110;
+    private static final int goodUniqueWords = 71;
+    private static final Map<String, Integer> testWordsToCount = new HashMap<String, Integer>();
 
     Book testBook;
     @Before
     public void setup() {
         testBook = new Book("Cay Horstmann", "Core Java Vol 1, 9th Ed", goodDescription, "Prentice Hall",
-                Binding.EPUB, 0);
+                Binding.EPUB);
         testWordsToCount.put("rights", 2);
         testWordsToCount.put("to", 7);
     }
@@ -57,28 +57,16 @@ public class BookTest {
         assertEquals(goodUniqueWords, bookUniqueWords);
     }
 
+     /*
+    I designed the word count test to handle multiple tests in one method call.
+    The test parameters are contained in the testWordsToCount HashMap in the setup.
+     */
     @Test
     public void testGetTotalWordInDescription() {
-//        String bookDescription = testBook.getDescription();
-//        bookDescription = testBook.getDescription().replace(",", "");
         Set keys = testWordsToCount.keySet();
-//        System.out.println("keyset = " + keys);  //debug
         for (Object key : keys) {
-            StringTokenizer st = new StringTokenizer(testBook.sanitizedDescription);
-            int wordCount = 0;
-//            String newKey = (String)key;
-//            System.out.println("key = " + key);  //debug
-            while (st.hasMoreTokens()) {
-                String word = st.nextToken().toLowerCase();
-//                System.out.println("word = " + word);  //debug
-                if (key.equals(word)) {
-                    wordCount++;
-                    System.out.println("wordCount = " + wordCount);  //debug
-                }
-            }
-            System.out.println("testWordsToCount.get(key): " + testWordsToCount.get(key));
-            System.out.println("wordCount: " + wordCount);
-            assertTrue(testWordsToCount.get(key) == wordCount);
+            String testWord = (String)key;
+            assertTrue(testWordsToCount.get(key) == testBook.getTotalWordInDescription(testWord));
         }
     }
 }

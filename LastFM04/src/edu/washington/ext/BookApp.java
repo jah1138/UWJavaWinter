@@ -21,7 +21,7 @@ public class BookApp {
         }
 
         testBook = new Book("Cay Horstmann", "Core Java Vol 1, 9th Ed", description, "Prentice Hall",
-                Binding.EPUB, 0);
+                Binding.EPUB);
 
         // Printing
         testBook.printDetails();

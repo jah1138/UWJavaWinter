@@ -25,16 +25,16 @@ public class Book {
     protected String sanitizedDescription = "";
 
     Book(){
-        this("Author", "Title", "Description", "Publisher", null, 0);
+        this("Author", "Title", "Description", "Publisher", null);
     }
 
-    Book(String author, String title, String description, String publisher, Binding binding, int pages) {
+    Book(String author, String title, String description, String publisher, Binding binding) {
         this.author = author;
         this.title = title;
         this.description = description;
         this.publisher = publisher;
         this.binding = binding;
-        this.pages = pages;
+        this.pages = 0;
         refNumber = "";
         sanitizedDescription = description.replaceAll("[?:!.,;]*", "").toLowerCase();
     }
