@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/harrisa02/src/Book.java" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9a51da6a-e0a2-4b38-8b2d-ca1e03bb6cc6" name="Default" comment="" />
     <ignored path="UWJavaQ1.iws" />
@@ -33,8 +36,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -50,11 +53,12 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -64,39 +68,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Book.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LastFM04/src/Book.java">
+      <file leaf-file-name="Book.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="14" selection-start="461" selection-end="461" vertical-scroll-proportion="0.22010177" vertical-offset="150" max-vertical-offset="2652">
+            <state line="22" column="26" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="2414">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1020#1021#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-                <element signature="e#1081#1082#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-                <element signature="e#1147#1148#0" expanded="true" />
-                <element signature="e#1181#1182#0" expanded="true" />
-                <element signature="e#1217#1218#0" expanded="true" />
-                <element signature="e#1249#1250#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-                <element signature="e#1314#1315#0" expanded="true" />
-                <element signature="e#1350#1351#0" expanded="true" />
-                <element signature="e#1382#1383#0" expanded="true" />
-                <element signature="e#1411#1412#0" expanded="true" />
-                <element signature="e#1439#1440#0" expanded="true" />
-                <element signature="e#1515#1516#0" expanded="true" />
-                <element signature="e#1561#1562#0" expanded="true" />
-                <element signature="e#2433#2441#0" expanded="true" />
+                <element signature="e#2611#2619#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LastFM04/src/BookTest.java">
+      <file leaf-file-name="BookApp.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+            <state line="48" column="0" selection-start="1539" selection-end="1539" vertical-scroll-proportion="1.312749" vertical-offset="157" max-vertical-offset="918">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="48" selection-start="201" selection-end="1009" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1171#1188#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,16 +114,23 @@
         <option value="$PROJECT_DIR$/harrisa02/src/Book.java" />
         <option value="$PROJECT_DIR$/harrisa03/src/LibraryTest.java" />
         <option value="$PROJECT_DIR$/harrisa03/src/Library.java" />
-        <option value="$PROJECT_DIR$/harrisa04/src/CodePlay.java" />
-        <option value="$PROJECT_DIR$/LastFM04/src/BookTest.java" />
-        <option value="$PROJECT_DIR$/LastFM04/src/Book.java" />
         <option value="$PROJECT_DIR$/LastFM04/src/Binding.java" />
+        <option value="$USER_HOME$/bookTest.java" />
+        <option value="$PROJECT_DIR$/harrisa04/src/CodePlay.java" />
+        <option value="$PROJECT_DIR$/LastFM04/src/BookApp.java" />
+        <option value="$PROJECT_DIR$/LastFM04/src/Book.java" />
+        <option value="$PROJECT_DIR$/LastFM04/src/CodeTesting.java" />
+        <option value="$PROJECT_DIR$/LastFM04/src/CodePlay.java" />
+        <option value="$PROJECT_DIR$/LastFM04/src/BookTest.java" />
+        <option value="$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java" />
+        <option value="$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java" />
+        <option value="$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="31" />
-    <option name="y" value="42" />
+    <option name="x" value="46" />
+    <option name="y" value="51" />
     <option name="width" value="1209" />
     <option name="height" value="918" />
   </component>
@@ -154,6 +160,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,16 +169,6 @@
               <option name="myItemId" value="UWJavaQ1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UWJavaQ1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -195,14 +193,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="UWJavaQ1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harrisa02" />
+              <option name="myItemId" value="ext" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,18 +204,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="harrisa02" />
+              <option name="myItemId" value="LastFM04" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="washington" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,20 +235,21 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/harrisa03/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LastFM04" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="FullScreen" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -259,55 +262,17 @@
       <recent name="C:\Users\Alex\IdeaProjects\UWJavaWinter\LastFM04\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\IdeaProjects\UWJavaWinter\LastFM04\src" />
-      <recent name="C:\Users\Alex\IdeaProjects\UWJavaWinter\LastFM04\Test" />
+      <recent name="C:\Users\Alex\IdeaProjects\UWJavaWinter\LastFM04\src\edu\washington\ext" />
+      <recent name="C:\Users\Alex\IdeaProjects\UWJavaWinter\CodePlay\src" />
+      <recent name="C:\Users\Alex\IdeaProjects\UWJavaWinter\LastFM04\src\classes" />
+      <recent name="C:\Users\Alex\IdeaProjects\UWJavaWinter\LastFM04\classes" />
+      <recent name="C:\Users\Alex\IdeaProjects\UWJavaWinter\CodePlay" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.washington.ext" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CodePlay">
-    <configuration default="false" name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="harrisa02" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="harrisa03" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.BookApp">
     <configuration default="false" name="CodePlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodePlay" />
       <option name="VM_PARAMETERS" />
@@ -318,8 +283,74 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="harrisa04" />
+      <module name="LastFM04" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BookApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.washington.ext.BookApp" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="    &quot;We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty, and the pursuit of Happiness. That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed. That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government, laying its foundation on such principles and organizing its powers in such form, as to them shall seem most likely to effect their Safety and Happiness.&quot;  to" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LastFM04" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LastFM04" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.washington.ext" />
+      <option name="MAIN_CLASS_NAME" value="edu.washington.ext.BookTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BookTest.testGetTotalWordInDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LastFM04" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="edu.washington.ext" />
+      <option name="MAIN_CLASS_NAME" value="edu.washington.ext.BookTest" />
+      <option name="METHOD_NAME" value="testGetTotalWordInDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -451,16 +482,19 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.BookTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LibraryTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.CodePlay" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.CodePlay" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BookApp" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BookTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BookTest.testGetTotalWordInDescription" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.CodePlay" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LibraryTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BookTest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.BookApp" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BookTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CodePlay" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BookTest.testGetTotalWordInDescription" />
+        <item index="4" class="java.lang.String" itemvalue="Application.CodePlay" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -495,30 +529,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="42" width="1209" height="918" extended-state="0" />
-    <editor active="true" />
+    <frame x="46" y="51" width="1209" height="918" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42458808" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39901477" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21633363" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282636" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24979044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20871753" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38046274" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22589053" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33079848" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3269962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953104" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
     </layout>
@@ -537,13 +572,261 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="799" max-vertical-offset="1513">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1171#1188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
+          <folding>
+            <element signature="e#2611#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1171#1188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
+          <folding>
+            <element signature="e#2611#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1171#1188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
+          <folding>
+            <element signature="e#2611#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1171#1188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
+          <folding>
+            <element signature="e#2611#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1171#1188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
+          <folding>
+            <element signature="e#2611#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1171#1188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
+          <folding>
+            <element signature="e#2611#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1171#1188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
+          <folding>
+            <element signature="e#2611#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1171#1188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
+          <folding>
+            <element signature="e#2611#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1171#1188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="14" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2652">
+          <folding>
+            <element signature="e#2611#2619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="629">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1171#1188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/harrisa04/src/CodePlay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374" />
@@ -589,89 +872,90 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3757" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/harrisa02/src/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="4" selection-start="79" selection-end="79" vertical-scroll-proportion="0.21841542" vertical-offset="0" max-vertical-offset="731" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/harrisa03/src/console.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="42" selection-start="1839" selection-end="1839" vertical-scroll-proportion="-0.29066667" vertical-offset="812" max-vertical-offset="1562" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/harrisa03/src/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.55807745" vertical-offset="0" max-vertical-offset="2134" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/harrisa03/src/LibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="645" selection-end="645" vertical-scroll-proportion="0.4432577" vertical-offset="218" max-vertical-offset="968" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/harrisa04/src/CodePlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.34605598" vertical-offset="0" max-vertical-offset="786" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/BookApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0648855" vertical-offset="0" max-vertical-offset="786">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/harrisa02/src/Binding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="51" selection-start="492" selection-end="492" vertical-scroll-proportion="0.6069364" vertical-offset="110" max-vertical-offset="629">
-          <folding />
-        </state>
+        <state line="25" column="51" selection-start="492" selection-end="492" vertical-scroll-proportion="0.6069364" vertical-offset="110" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/harrisa02/src/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="31" selection-start="1719" selection-end="1719" vertical-scroll-proportion="-0.9132948" vertical-offset="1562" max-vertical-offset="2244">
+        <state line="76" column="31" selection-start="1719" selection-end="1719" vertical-scroll-proportion="-0.9132948" vertical-offset="1562" max-vertical-offset="2244" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/bookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="17" selection-start="0" selection-end="3135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/CodePlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="342" selection-end="342" vertical-scroll-proportion="0.47113165" vertical-offset="0" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodePlay/src/CodePlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="5" selection-start="742" selection-end="742" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/harrisa03/src/LibraryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="645" selection-end="645" vertical-scroll-proportion="0.84325397" vertical-offset="0" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/harrisa02/src/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="20" selection-start="95" selection-end="95" vertical-scroll-proportion="0.13368283" vertical-offset="0" max-vertical-offset="763" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Binding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/Binding.java">
+    <entry file="file://$PROJECT_DIR$/LastFM04/classes/edu/washington/ext/Binding.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.259542" vertical-offset="0" max-vertical-offset="786">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/harrisa03/src/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+        <state line="66" column="40" selection-start="2406" selection-end="2406" vertical-scroll-proportion="1.2529881" vertical-offset="255" max-vertical-offset="1462">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/Book.java">
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="461" selection-end="461" vertical-scroll-proportion="0.22010177" vertical-offset="150" max-vertical-offset="2652">
+        <state line="22" column="26" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="127" max-vertical-offset="2414">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1181#1182#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1350#1351#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1411#1412#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1515#1516#0" expanded="true" />
-            <element signature="e#1561#1562#0" expanded="true" />
-            <element signature="e#2433#2441#0" expanded="true" />
+            <element signature="e#2611#2619#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="48" selection-start="201" selection-end="1009" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1171#1188#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1539" selection-end="1539" vertical-scroll-proportion="1.312749" vertical-offset="157" max-vertical-offset="918">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -727,7 +1011,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>harrisa01</last-edited>
+          <last-edited>LastFM04</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

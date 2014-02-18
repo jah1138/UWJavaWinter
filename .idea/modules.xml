@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodePlay/CodePlay.iml" filepath="$PROJECT_DIR$/CodePlay/CodePlay.iml" />
       <module fileurl="file://$PROJECT_DIR$/LastFM04/LastFM04.iml" filepath="$PROJECT_DIR$/LastFM04/LastFM04.iml" />
       <module fileurl="file://$PROJECT_DIR$/harrisa01/harrisa01.iml" filepath="$PROJECT_DIR$/harrisa01/harrisa01.iml" />
       <module fileurl="file://$PROJECT_DIR$/harrisa02/harrisa02.iml" filepath="$PROJECT_DIR$/harrisa02/harrisa02.iml" />

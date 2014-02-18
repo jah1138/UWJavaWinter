@@ -7,12 +7,12 @@ public class CodePlay {
 
     public static void main(String[] args){
 
-    String{} testArray = {"foo", "bar", ""};
-    System.out.println("testArray.length is " + testArray.length);
-    System.out.println("Array.getLength(testArray) is " + Array.getLength(testArray));
-}
+        // test whether array length methods count empty strings
+        String[] testArray = {"foo", "bar", ""};
+        System.out.println("testArray.length is " + testArray.length);
+        System.out.println("Array.getLength(testArray) is " + Array.getLength(testArray));
 
-//
+//        // test the constant pool thing
 //        String textone = "Java";
 //        String texttwo = "Java";
 //
@@ -20,5 +20,7 @@ public class CodePlay {
 //        System.out.println(textone == texttwo);
 //        System.out.println("Same content?");
 //        System.out.println(textone.equals(texttwo));
-//    }
+
+
+    }
 }
