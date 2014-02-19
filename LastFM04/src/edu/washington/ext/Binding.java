@@ -1,8 +1,10 @@
 package edu.washington.ext;
 
 /**
- * Created by Alex on 1/30/14.
  * A selection of different bindings for a book.
+ *
+ * @author Alex Harris
+ * @version February 12, 2014
  */
 public enum Binding {
     HARDCOVER,

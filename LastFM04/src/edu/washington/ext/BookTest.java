@@ -5,8 +5,18 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.*;
 
+/**
+ *Unit Test class written for the Book class.
+ *
+ * @author Alex Harris
+ * @version February 17, 2014
+ */
+
 public class BookTest {
 
+    /**
+     * Default values for constructing and testing the Book class methods.
+     */
     private static final String goodDescription = "We hold these truths to be self-evident, " +
             "that all men are created equal, that they are endowed by their Creator " +
             "with certain unalienable Rights, that among these are Life, Liberty, and " +
@@ -19,6 +29,7 @@ public class BookTest {
             "effect their Safety and Happiness.";
     private static final int goodTotalWords = 110;
     private static final int goodUniqueWords = 71;
+    /* HashMap for entering multiple word count test values. */
     private static final Map<String, Integer> testWordsToCount = new HashMap<String, Integer>();
 
     Book testBook;
@@ -26,16 +37,23 @@ public class BookTest {
     public void setup() {
         testBook = new Book("Cay Horstmann", "Core Java Vol 1, 9th Ed", goodDescription, "Prentice Hall",
                 Binding.EPUB);
+        /* Words to count, with their expected result, are entered in the HashMap.*/
         testWordsToCount.put("rights", 2);
         testWordsToCount.put("to", 7);
     }
 
+    /**
+     * Tests the <code>Book.getDescription</code> method.
+     */
     @Test
     public void testGetDescription() {
         String bookDescription = testBook.getDescription();
         assertTrue(goodDescription.equals(bookDescription));
     }
 
+    /**
+     * Tests the <code>Book.setDescription</code> method.
+     */
     @Test
     public void testSetDescription() {
         String testWord = "Test";
@@ -45,12 +63,18 @@ public class BookTest {
         testBook.setDescription(bookDescription);
     }
 
+    /**
+     * Tests the <code>Book.getTotalWordsInDescription</code> method.
+     */
     @Test
     public void testGetTotalWordsInDescription() {
         int bookTotalWords = testBook.getTotalWordsInDescription();
         assertEquals(goodTotalWords, bookTotalWords);
     }
 
+    /**
+     * Tests the <code>Book.getTotalUniqueWordsInDescription</code> method.
+     */
     @Test
     public void testGetTotalUniqueWordsInDescription() {
         int bookUniqueWords = testBook.getTotalUniqueWordsInDescription();
@@ -60,6 +84,14 @@ public class BookTest {
      /*
     I designed the word count test to handle multiple tests in one method call.
     The test parameters are contained in the testWordsToCount HashMap in the setup.
+     */
+
+    /**
+     * Tests the <code>Book.getTotalWordInDescription</code> method.
+     *
+     * This test can run multiple test cases during one invocation by
+     * entering word and count values in the <code>testWordsToCount</code> HashMap
+     * which is initialized during the setup.
      */
     @Test
     public void testGetTotalWordInDescription() {
