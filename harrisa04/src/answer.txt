@@ -1,0 +1,17 @@
+1.  The structure of API class documentation follows this common structure:
+
+    a.  Class hierarchy and description
+    b.  Summary of fields
+    c.  Summary of constructors
+    d.  Summary of methods
+    e.  Detail of fields
+    f.  Detail of constructors
+    g.  Detail of methods
+
+(Field, constructor, and Methods sections will appear only when the class contains those respective elements.)
+
+
+2.  The startsWith method of the String class takes a string parameter, called the prefix, and checks to see if a target string begins with the exact sequence of characters contained in the prefix. If it does the method returns true, otherwise it returns false. If the prefix is an empty string the method will return true – logically, there is “nothing” at the beginning of every string. The method will also return true if the prefix and the target string contain identical values as determined by prefix.equals(targetString).
+
+
+3.  The endsWith method operates just as the startsWith method, except that it uses the string parameter as a suffix and compares it to the end of the target string. The method signature is public boolean endsWith(String suffix).

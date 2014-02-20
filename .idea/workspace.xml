@@ -71,35 +71,7 @@
     <favorites_list name="UWJavaQ1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Book.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="188" column="28" selection-start="4964" selection-end="4964" vertical-scroll-proportion="6.8646083" vertical-offset="0" max-vertical-offset="4488">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookApp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1190">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="29" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1819">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -124,15 +96,15 @@
         <option value="$PROJECT_DIR$/LastFM04/src/answer.txt" />
         <option value="$PROJECT_DIR$/LastFM04/JavaDoc/index-files/index-1.html" />
         <option value="$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Binding.java" />
-        <option value="$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java" />
         <option value="$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java" />
+        <option value="$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java" />
         <option value="$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="31" />
-    <option name="y" value="34" />
+    <option name="x" value="48" />
+    <option name="y" value="38" />
     <option name="width" value="1209" />
     <option name="height" value="918" />
   </component>
@@ -147,7 +119,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -170,16 +142,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="UWJavaQ1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="UWJavaQ1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LastFM04" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -230,7 +192,7 @@
       <recent name="edu.washington.ext" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookApp">
+  <component name="RunManager" selected="JUnit.BookTest">
     <configuration default="false" name="CodePlay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CodePlay" />
       <option name="VM_PARAMETERS" />
@@ -347,19 +309,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -385,6 +334,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -448,8 +410,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BookApp" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BookTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BookTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BookApp" />
         <item index="2" class="java.lang.String" itemvalue="Application.CodePlay" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.BookTest.testGetTotalWordInDescription" />
         <item index="4" class="java.lang.String" itemvalue="Application.CodePlay" />
@@ -487,15 +449,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="34" width="1209" height="918" extended-state="0" />
+    <frame x="48" y="38" width="1209" height="918" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4334601" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26742712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3269962" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39901477" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -512,7 +475,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3269962" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953104" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39923954" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
@@ -542,165 +504,104 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
-          <folding />
-        </state>
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
-          <folding />
-        </state>
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
-          <folding />
-        </state>
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
-          <folding />
-        </state>
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
-          <folding />
-        </state>
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
-          <folding />
-        </state>
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
-          <folding />
-        </state>
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
-          <folding />
-        </state>
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
-          <folding />
-        </state>
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
-          <folding />
-        </state>
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
-          <folding />
-        </state>
+        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
-          <folding />
-        </state>
+        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="69" selection-start="568" selection-end="629" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2652">
-          <folding />
-        </state>
+        <state line="19" column="14" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2652" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="42" selection-start="1854" selection-end="1854" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1513">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="2652">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="629">
-          <folding />
-        </state>
+        <state line="31" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/harrisa04/src/CodePlay.java">
@@ -778,11 +679,6 @@
         <state line="66" column="40" selection-start="2406" selection-end="2406" vertical-scroll-proportion="1.2529881" vertical-offset="255" max-vertical-offset="1462" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/classes/edu/washington/ext/Binding.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476" />
@@ -793,16 +689,14 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/JavaDoc/index-files/index-1.html">
+    <entry file="file://$PROJECT_DIR$/harrisa04/JavaDoc/index-files/index-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2414" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Binding.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/Binding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.50595236" vertical-offset="0" max-vertical-offset="504">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.50595236" vertical-offset="0" max-vertical-offset="504" />
       </provider>
     </entry>
     <entry file="file://C:/Program Files/Java/jdk1.7.0_40/src/java/util/ArrayList.java">
@@ -810,7 +704,7 @@
         <state line="148" column="0" selection-start="5659" selection-end="5667" vertical-scroll-proportion="0.75654453" vertical-offset="1938" max-vertical-offset="20026" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/answer.txt">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/answer.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="42" selection-start="971" selection-end="971" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
       </provider>
@@ -820,7 +714,7 @@
         <state line="17" column="52" selection-start="538" selection-end="538" vertical-scroll-proportion="0.54366815" vertical-offset="23" max-vertical-offset="714" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/JavaDoc/index.html">
+    <entry file="file://$PROJECT_DIR$/harrisa04/JavaDoc/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190" />
       </provider>
@@ -830,25 +724,19 @@
         <state line="25" column="0" selection-start="645" selection-end="645" vertical-scroll-proportion="0.9259259" vertical-offset="0" max-vertical-offset="748" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookTest.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="29" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1819">
-          <folding />
-        </state>
+        <state line="275" column="1" selection-start="6837" selection-end="6837" vertical-scroll-proportion="9.518518" vertical-offset="0" max-vertical-offset="4471" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/BookApp.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1190">
-          <folding />
-        </state>
+        <state line="32" column="9" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.5185185" vertical-offset="306" max-vertical-offset="1190" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LastFM04/src/edu/washington/ext/Book.java">
+    <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="28" selection-start="4964" selection-end="4964" vertical-scroll-proportion="6.8646083" vertical-offset="0" max-vertical-offset="4488">
-          <folding />
-        </state>
+        <state line="104" column="0" selection-start="3828" selection-end="3828" vertical-scroll-proportion="1.5925926" vertical-offset="986" max-vertical-offset="1819" />
       </provider>
     </entry>
   </component>
