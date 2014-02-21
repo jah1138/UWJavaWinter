@@ -3,10 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CodePlay/CodePlay.iml" filepath="$PROJECT_DIR$/CodePlay/CodePlay.iml" />
-      <module fileurl="file://$PROJECT_DIR$/harrisa04/harris04.iml" filepath="$PROJECT_DIR$/harrisa04/harris04.iml" />
       <module fileurl="file://$PROJECT_DIR$/harrisa01/harrisa01.iml" filepath="$PROJECT_DIR$/harrisa01/harrisa01.iml" />
       <module fileurl="file://$PROJECT_DIR$/harrisa02/harrisa02.iml" filepath="$PROJECT_DIR$/harrisa02/harrisa02.iml" />
       <module fileurl="file://$PROJECT_DIR$/harrisa03/harrisa03.iml" filepath="$PROJECT_DIR$/harrisa03/harrisa03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/harrisa04/harrisa04.iml" filepath="$PROJECT_DIR$/harrisa04/harrisa04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/harrisamid/harrisamid.iml" filepath="$PROJECT_DIR$/harrisamid/harrisamid.iml" />
       <module fileurl="file://$PROJECT_DIR$/harrisa04/stuff.iml" filepath="$PROJECT_DIR$/harrisa04/stuff.iml" />
     </modules>
   </component>
