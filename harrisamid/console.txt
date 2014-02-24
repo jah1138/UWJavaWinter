@@ -1,0 +1,25 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Alex>cd IdeaProjects\UWJavaWinter\harrisamid\classes
+
+C:\Users\Alex\IdeaProjects\UWJavaWinter\harrisamid\classes>
+java edu.washington.midcourse.Main "Hello there. Testing, testing!"
+Uryyb gurer. Grfgvat, grfgvat!
+
+C:\Users\Alex\IdeaProjects\UWJavaWinter\harrisamid\classes>
+java edu.washington.midcourse.Main "I got a doodle in my noodle and its name is Minkey Boodle!"
+V tbg n qbbqyr va zl abbqyr naq vgf anzr vf Zvaxrl Obbqyr!
+
+C:\Users\Alex\IdeaProjects\UWJavaWinter\harrisamid\classes>
+java edu.washington.midcourse.Main "Doodle!" "Noodle!"
+one string argument required
+
+C:\Users\Alex\IdeaProjects\UWJavaWinter\harrisamid\classes>
+java edu.washington.midcourse.Main
+one string argument required
+
+C:\Users\Alex\IdeaProjects\UWJavaWinter\harrisamid\classes>
+
+
+
