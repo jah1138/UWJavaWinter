@@ -164,8 +164,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -176,6 +174,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,19 +366,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -404,6 +391,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -516,13 +516,11 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32638037" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7097592" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39901477" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21633363" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24979044" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -533,6 +531,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7097592" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953104" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39923954" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
@@ -764,72 +764,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/harrisa04/classes/edu/washington/ext/BookApp.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="763">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="763" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/assignment4/src/edu/washington/ext/WordCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="-0.0076481835" vertical-offset="276" max-vertical-offset="1207">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="505" selection-end="505" vertical-scroll-proportion="-0.0076481835" vertical-offset="276" max-vertical-offset="1207" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/harrisa04/src/edu/washington/ext/BookApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2" selection-start="616" selection-end="616" vertical-scroll-proportion="0.29254302" vertical-offset="102" max-vertical-offset="1190">
-          <folding />
-        </state>
+        <state line="15" column="2" selection-start="616" selection-end="616" vertical-scroll-proportion="0.29254302" vertical-offset="102" max-vertical-offset="1190" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/assignment4/src/edu/washington/ext/WordCounterApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="48" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="918">
-          <folding />
-        </state>
+        <state line="26" column="48" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="918" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/harrisamid/src/edu/washington/midcourse/util/Rot13_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="46" selection-start="515" selection-end="515" vertical-scroll-proportion="0.529304" vertical-offset="0" max-vertical-offset="850">
-          <folding />
-        </state>
+        <state line="18" column="46" selection-start="515" selection-end="515" vertical-scroll-proportion="0.529304" vertical-offset="0" max-vertical-offset="850" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/harrisamid/src/edu/washington/midcourse/util/Rot13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="50" selection-start="590" selection-end="590" vertical-scroll-proportion="0.2802198" vertical-offset="255" max-vertical-offset="833">
-          <folding />
-        </state>
+        <state line="24" column="50" selection-start="590" selection-end="590" vertical-scroll-proportion="0.2802198" vertical-offset="255" max-vertical-offset="833" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/harrisamid/console.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="872" selection-end="872" vertical-scroll-proportion="0.7476099" vertical-offset="0" max-vertical-offset="527">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="872" selection-end="872" vertical-scroll-proportion="0.7476099" vertical-offset="0" max-vertical-offset="527" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/harrisamid/src/edu/washington/midcourse/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.8451243" vertical-offset="0" max-vertical-offset="544">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="633" selection-end="633" vertical-scroll-proportion="0.8451243" vertical-offset="0" max-vertical-offset="544" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/harrisamid/test/edu/washington/midcourse/util/Rot13_2Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="7" selection-start="552" selection-end="552" vertical-scroll-proportion="0.48757172" vertical-offset="102" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="24" column="7" selection-start="552" selection-end="552" vertical-scroll-proportion="0.48757172" vertical-offset="102" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/harrisamid/test/edu/washington/midcourse/util/Rot13Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="11" selection-start="458" selection-end="458" vertical-scroll-proportion="0.36137667" vertical-offset="83" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="18" column="11" selection-start="458" selection-end="458" vertical-scroll-proportion="0.36137667" vertical-offset="83" max-vertical-offset="646" />
       </provider>
     </entry>
   </component>
