@@ -65,4 +65,5 @@ public class StoreEmployee implements Employee {
     public double calculatePay() {
         return hourlyRate * currentHours;
     }
+
 }

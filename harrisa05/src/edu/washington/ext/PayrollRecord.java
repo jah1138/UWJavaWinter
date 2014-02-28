@@ -37,4 +37,9 @@ public class PayrollRecord {
         return employeeName;
     }
 
+    public String getRecord() {
+        return "Employee name: \t" + employeeName + "\n" +
+                "Employee pay:\t$" + String.format("%.2f",currentPay);
+    }
+
 }
