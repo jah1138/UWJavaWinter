@@ -2,6 +2,7 @@ package edu.washington.ext;
 
 /**
  * Creates a Store Employee.
+ *
  * @author Alex Harris
  * @version February 27, 2014
  */
@@ -11,7 +12,7 @@ public class StoreEmployee implements Employee {
     private double currentHours = 0, hourlyRate = 0, currentSales = 0;
 
     /**
-     * Creates an employee
+     * Creates an employee.
      * @param name Employee name
      */
     public StoreEmployee(String name) {
@@ -19,7 +20,7 @@ public class StoreEmployee implements Employee {
     }
 
     /**
-     * Sets employee's current sales
+     * Sets employee's current total sales amount
      * @param Sales Employee's sales
      */
     public void setCurrentSales(double Sales) {
@@ -27,7 +28,7 @@ public class StoreEmployee implements Employee {
     }
 
     /**
-     * Gets employee's current sales numbers
+     * Gets employee's current sales numbers.
      * @return Employee's sales
      */
     public double getCurrentSales() {
@@ -35,7 +36,7 @@ public class StoreEmployee implements Employee {
     }
 
     /**
-     * Set's employee's hourly rate of pay
+     * Sets employee's hourly rate of pay.
      * @param rate Employee's hourly rate of pay
      */
     public void setHourlyRate(double rate) {
@@ -43,7 +44,7 @@ public class StoreEmployee implements Employee {
     }
 
     /**
-     * Set employee's current hours
+     * Sets employee's total current hours worked.
      * @param hours Employee's current hours
      */
     public void setCurrentHours(double hours) {
@@ -51,7 +52,7 @@ public class StoreEmployee implements Employee {
     }
 
     /**
-     * Gets employee's name
+     * Gets employee's name.
      * @return Employee's name
      */
     public String getName() {
@@ -59,7 +60,8 @@ public class StoreEmployee implements Employee {
     }
 
     /**
-     * Calculates employee's pay
+     * Calculates employee's pay.
+     * The calculation is Hourly rate * Current hours worked.
      * @return Employee's pay
      */
     public double calculatePay() {

@@ -63,62 +63,7 @@
     <favorites_list name="harrisa05" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Store.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Store.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="34" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.0" vertical-offset="836" max-vertical-offset="2091">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoreEmployee.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/StoreEmployee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="7" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="1258">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoreTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/edu/washington/ext/StoreTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="0" selection-start="3458" selection-end="3458" vertical-scroll-proportion="3.0032415" vertical-offset="0" max-vertical-offset="1955">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PayrollRecord.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/PayrollRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="5" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1632">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -129,21 +74,23 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/StoreEmployee.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/SalesAssociate.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/Manager.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/Employee.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/StoreEmployee.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/PayrollRecord.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/Store.java" />
         <option value="$PROJECT_DIR$/test/edu/washington/ext/StoreTest.java" />
+        <option value="$PROJECT_DIR$/src/answer.txt" />
+        <option value="$PROJECT_DIR$/src/edu/washington/ext/Employee.java" />
+        <option value="$PROJECT_DIR$/src/edu/washington/ext/Manager.java" />
+        <option value="$PROJECT_DIR$/src/edu/washington/ext/PayrollRecord.java" />
+        <option value="$PROJECT_DIR$/src/edu/washington/ext/SalesAssociate.java" />
+        <option value="$PROJECT_DIR$/src/edu/washington/ext/StoreEmployee.java" />
+        <option value="$PROJECT_DIR$/javadocs/index.html" />
+        <option value="$PROJECT_DIR$/src/edu/washington/ext/Store.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="5" />
-    <option name="width" value="1023" />
-    <option name="height" value="1064" />
+    <option name="x" value="50" />
+    <option name="y" value="22" />
+    <option name="width" value="1209" />
+    <option name="height" value="944" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -190,6 +137,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,7 +159,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +171,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="editor.preferences.folding" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -234,6 +181,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPlain text" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -246,7 +194,7 @@
       <recent name="edu.washington.ext" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StoreTest">
+  <component name="RunManager" selected="JUnit.StoreTest.testPrintPayroll">
     <configuration default="false" name="StoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="harrisa05" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -391,19 +339,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -429,6 +364,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -493,9 +441,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StoreTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StoreTest.testPrintEmployees" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StoreTest.testPrintPayroll" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StoreTest.testPrintPayroll" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StoreTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StoreTest.testPrintEmployees" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.StoreTest.testGetCurrentSales" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.StoreTest.testProcessPayroll" />
       </list>
@@ -532,7 +480,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="5" width="1023" height="1064" extended-state="0" />
+    <frame x="50" y="22" width="1209" height="944" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -541,22 +489,22 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23932473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23892267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760736" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -582,6 +530,53 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/answer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/StoreEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="7" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/edu/washington/ext/StoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="0" selection-start="3458" selection-end="3458" vertical-scroll-proportion="0.0" vertical-offset="1853" max-vertical-offset="1921" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/PayrollRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="5" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1632">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Store.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="0" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1156">
@@ -610,54 +605,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/SalesAssociate.java">
+    <entry file="file://$PROJECT_DIR$/test/edu/washington/ext/StoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="7" selection-start="566" selection-end="566" vertical-scroll-proportion="0.581749" vertical-offset="0" max-vertical-offset="789">
-          <folding>
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-          </folding>
+        <state line="98" column="38" selection-start="3276" selection-end="3276" vertical-scroll-proportion="0.6111111" vertical-offset="1313" max-vertical-offset="1921" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="498" selection-end="498" vertical-scroll-proportion="0.4728192" vertical-offset="0" max-vertical-offset="791">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="5" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+        <state line="84" column="27" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.69911504" vertical-offset="637" max-vertical-offset="1428">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/PayrollRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+        <state line="28" column="26" selection-start="734" selection-end="734" vertical-scroll-proportion="0.6017699" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/StoreEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="7" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="1258">
+        <state line="63" column="60" selection-start="1396" selection-end="1402" vertical-scroll-proportion="0.8381795" vertical-offset="408" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/SalesAssociate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="2" selection-start="70" selection-end="70" vertical-scroll-proportion="0.08596713" vertical-offset="0" max-vertical-offset="791">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javadocs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="34" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.0" vertical-offset="836" max-vertical-offset="2091">
+        <state line="62" column="31" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.5754119" vertical-offset="600" max-vertical-offset="2720">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/edu/washington/ext/StoreTest.java">
+    <entry file="file://$PROJECT_DIR$/src/answer.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="3458" selection-end="3458" vertical-scroll-proportion="3.0032415" vertical-offset="0" max-vertical-offset="1955">
+        <state line="1" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.021907216" vertical-offset="0" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
@@ -719,7 +723,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -738,6 +741,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

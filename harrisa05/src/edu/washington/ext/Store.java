@@ -20,6 +20,10 @@ public class Store {
         this.storeNumber = storeNumber;
     }
 
+    /**
+     * Gets the store's identification number.
+     * @return Store number
+     */
     public int getStoreNumber() {
         return storeNumber;
     }
@@ -35,6 +39,10 @@ public class Store {
         return manager.getCurrentStoreSales();
     }
 
+    /**
+     * Adds a new employee to the store's staff.
+     * @param employee The Employee being added to the staff.
+     */
     public void addEmployee(StoreEmployee employee) {
         if (employees == null) {
             employees = new ArrayList<Employee>();
@@ -46,6 +54,11 @@ public class Store {
         employees.add(employee);
     }
 
+    /**
+     * Names the Manager for the store. A store can have only one manager, so when a
+     * manager is set using this method, any existing manager will be replaced.
+     * @param manager The manager of the store.
+     */
     public void setManager(Manager manager) {
         this.manager = manager;
         if (employees == null) {
@@ -65,6 +78,10 @@ public class Store {
         employees.add(manager);
     }
 
+    /**
+     * Gets a list of all current store employees, of all types.
+     * @return an ArrayList of all employees.
+     */
     public List<Employee> getEmployees() {
         if (employees == null) {
             employees = new ArrayList<Employee>();
@@ -72,6 +89,9 @@ public class Store {
         return employees;
     }
 
+    /**
+     * Prints a list of all current store employees and their role.
+     */
     public void printEmployees() {
         if (employees != null) {
             for (Employee emp : employees) {
@@ -86,6 +106,11 @@ public class Store {
 
     /* Payroll operations*/
 
+    /**
+     * Calculates current payroll and creates a payroll record for each of the
+     * store employees.
+     * @return An array of payroll records.
+     */
     public PayrollRecord[] processPayroll() {
         payroll = new PayrollRecord[employees.size()];
         int i = 0;
@@ -96,6 +121,9 @@ public class Store {
         return payroll;
     }
 
+    /**
+     * Prints out a copy of the store's current payroll records.
+     */
     public void printPayroll() {
         if (payroll != null) {
             for (PayrollRecord pr : payroll) {
@@ -107,9 +135,18 @@ public class Store {
         }
     }
 
+    /**
+     * Returns any existing payroll records.
+     *
+     * This method does not process payroll, so the records it returns may not be current.
+     *
+     * If no payroll records exist, it will write a message to System.err and return null.
+     * @return An array of payroll records.
+     */
     public PayrollRecord[] getPayroll() {
         if (payroll == null) {
-            processPayroll();
+            System.err.println("Payroll has not been processed.");
+            return null;
         }
         return payroll;
     }
