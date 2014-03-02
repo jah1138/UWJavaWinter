@@ -69,6 +69,7 @@ public class StoreTest {
      */
     @Test
     public void testProcessPayroll() {
+        testStore.processPayroll();
         assertNotNull(testStore.getPayroll());
         assertNotNull(testStore.getEmployees());
         assertEquals(testStore.getPayroll().length, testStore.getEmployees().size(), .001);
