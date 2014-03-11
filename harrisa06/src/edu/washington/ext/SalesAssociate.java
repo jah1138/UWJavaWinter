@@ -1,14 +1,23 @@
 package edu.washington.ext;
 
+import edu.washington.ext.common.CommissionedEmployee;
+
 /**
  * Class creates a Sales Associate
  *
  * @author Alex Harris
  * @version February 27, 2014
  */
-public class SalesAssociate extends StoreEmployee {
+public final class SalesAssociate extends StoreEmployee implements CommissionedEmployee {
 
     private double commissionRate = 0;
+
+    /**
+     * Default constructor.
+     */
+    public SalesAssociate() {
+        this("New Sales Associate");
+    }
 
     /**
      * Creates a Sales Associate.
@@ -27,12 +36,20 @@ public class SalesAssociate extends StoreEmployee {
     }
 
     /**
+     * Gets the associate's total commission
+     * @return Total commission
+     */
+    public double calculateCommission() {
+        return getCurrentSales() * commissionRate;
+    }
+
+    /**
      * Calculates the Sales Associate's pay.
      * The calculation is (Hourly rate * Hours worked) + (Current sales * Commission rate).
      * @return Pay amount.
      */
     public double calculatePay() {
-        return (super.calculatePay() + (getCurrentSales() * commissionRate));
+        return (super.calculatePay() + calculateCommission());
     }
 
 }

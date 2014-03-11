@@ -9,7 +9,11 @@ package edu.washington.ext.common;
 public abstract class AbstractEmployee implements Employee {
 
     /**Name variable.*/
-    private String name = "";
+    private String name = null;
+
+    public AbstractEmployee(String name) {
+        this.name = name;
+    }
 
     /**
      * Returns the employee's name.

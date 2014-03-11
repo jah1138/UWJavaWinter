@@ -6,7 +6,7 @@ package edu.washington.ext;
  * @author Alex Harris
  * @version February 27, 2014
  */
-public class PayrollRecord {
+public final class PayrollRecord {
 
     private String employeeName = "";
     private double currentPay = 0.0;

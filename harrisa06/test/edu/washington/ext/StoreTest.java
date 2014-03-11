@@ -12,13 +12,20 @@ import static org.junit.Assert.*;
  */
 public class StoreTest {
 
+    /**
+     * Constants for checking equality
+     */
     final double MANAGER_PAY = 4502.50;
     final double OFFICE_EMP_PAY = 1680.00;
     final double ASS0CIATE01_PAY = 2025.00;
     final double ASSOCIATE02_PAY = 2920.00;
     final double ASSOCIATE03_PAY = 3750.00;
     final double STORE_CURRENT_SALES = 100500.00;
+    final double STORE_COMMISSIONS = 2752.50;
 
+    /**
+     * Object declarations
+     */
     private Store testStore;
     private Manager manager;
     private StoreEmployee officeEmp;
@@ -29,8 +36,9 @@ public class StoreTest {
     @Before
     public void setUp() {
 
-        /* Create test data */
-
+        /**
+         * Set up the testing scenario
+         * */
         testStore = new Store(1);
 
         testStore.setManager(manager = new Manager("Joe Manager"));
@@ -38,11 +46,10 @@ public class StoreTest {
         testStore.addEmployee(salesAssociate01 = new SalesAssociate("Alan Associate01"));
         testStore.addEmployee(salesAssociate02 = new SalesAssociate("Bob Associate02"));
         testStore.addEmployee(salesAssociate03 = new SalesAssociate("Carol Associate03"));
-        manager.setCurrentStoreSales(STORE_CURRENT_SALES);
 
-        manager.setBasePay(4000.00);
-        manager.setCurrentSales(10000.00);
-        Manager.setBonusRate(.005);
+        manager.setBasePay(4000);
+        manager.setCurrentSales(10000);
+        Manager.setCommissionRate(.005);
 
         officeEmp.setHourlyRate(10.50);
         officeEmp.setCurrentHours(160);
@@ -80,7 +87,12 @@ public class StoreTest {
      */
     @Test
     public void testGetCurrentSales() {
-        assertEquals(testStore.getCurrentSales(), STORE_CURRENT_SALES, .001) ;
+        assertEquals(STORE_CURRENT_SALES, testStore.getCurrentSales(), .001) ;
+    }
+
+    @Test
+    public void testGetTotalCommissions() {
+        assertEquals(STORE_COMMISSIONS, testStore.getTotalCommissions(), .50);
     }
 
     /*
@@ -88,23 +100,36 @@ public class StoreTest {
      */
     @Test
     public void testNumbers() {
-        assertEquals(manager.calculatePay(), MANAGER_PAY, .001);
-        assertEquals(officeEmp.calculatePay(), OFFICE_EMP_PAY, .001);
-        assertEquals(salesAssociate01.calculatePay(), ASS0CIATE01_PAY, .001);
-        assertEquals(salesAssociate02.calculatePay(), ASSOCIATE02_PAY, .001);
-        assertEquals(salesAssociate03.calculatePay(), ASSOCIATE03_PAY, .001);
-        assertEquals(testStore.getCurrentSales(), STORE_CURRENT_SALES, .001);
+        assertEquals(MANAGER_PAY, manager.calculatePay(), .001);
+        assertEquals(OFFICE_EMP_PAY, officeEmp.calculatePay(), .001);
+        assertEquals(ASS0CIATE01_PAY, salesAssociate01.calculatePay(), .001);
+        assertEquals(ASSOCIATE02_PAY, salesAssociate02.calculatePay(), .001);
+        assertEquals(ASSOCIATE03_PAY, salesAssociate03.calculatePay(), .001);
+        assertEquals(STORE_CURRENT_SALES, testStore.getCurrentSales(), .001);
     }
+
+
 
 //    @Test
 //    public void testPrintPayroll() {
 //        testStore.processPayroll();
 //        testStore.printPayroll();
 //    }
-
+//
 //    @Test
 //    public void testPrintEmployees() {
 //        testStore.printEmployees();
+//    }
+
+//    @Test
+//    public void testSomeThings() {
+//        System.out.println("Store current sales: " + testStore.getCurrentSales());
+//        System.out.println("Mgr currentSales: " + manager.getCurrentSales());
+//        System.out.println("Mgr currentStoreSales: " + manager.getCurrentStoreSales());
+//        System.out.println("Mgr base pay: " + MANAGER_PAY);
+//        System.out.println("Mgr commission: " + manager.calculateCommission());
+//        System.out.println("Mgr calculatePay: " + manager.calculatePay());
+//        System.out.println("Store total commission: " + testStore.getTotalCommissions());
 //    }
 
 }
