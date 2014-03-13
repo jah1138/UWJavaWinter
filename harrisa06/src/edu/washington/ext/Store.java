@@ -1,5 +1,6 @@
 package edu.washington.ext;
 
+import edu.washington.ext.common.CommissionedEmployee;
 import edu.washington.ext.common.Employee;
 
 import java.util.ArrayList;
@@ -11,13 +12,17 @@ import java.util.List;
  * @author Alex Harris
  * @version February 27, 2014.
  */
-public class Store {
+public final class Store {
 
     private int storeNumber = 0;
     private Manager manager = null;
-    private List<Employee> employees = null;
+    private List<StoreEmployee> employees = null;
     private PayrollRecord[] payroll = null;
 
+    /**
+     * Constructs a store with a given store number.
+     * @param storeNumber The store's number
+     */
     public Store(int storeNumber) {
         this.storeNumber = storeNumber;
     }
@@ -36,7 +41,7 @@ public class Store {
      */
     public void addEmployee(StoreEmployee employee) {
         if (employees == null) {
-            employees = new ArrayList<Employee>();
+            employees = new ArrayList<StoreEmployee>();
         }
         else if (employees.contains(employee)) {
             System.err.println("This employee is already assigned to the store");
@@ -52,31 +57,16 @@ public class Store {
      */
     public void setManager(Manager manager) {
         this.manager = manager;
-        if (employees == null) {
-            employees = new ArrayList<Employee>();
-        }
-        else if (employees.contains(manager)) {
-            System.err.println("This manager is already assigned to the store");
-            return;
-        }
-        else {
-            for (Employee emp : employees) {
-                if (emp instanceof Manager) {
-                    employees.remove(emp);
-                }
-            }
-        }
-        employees.add(manager);
         manager.setMyStore(this);
     }
 
     /**
-     * Gets a list of all current store employees, of all types.
+     * Gets a list of all current store employees.
      * @return an ArrayList of all employees.
      */
-    public List<Employee> getEmployees() {
+    public List<StoreEmployee> getEmployees() {
         if (employees == null) {
-            employees = new ArrayList<Employee>();
+            employees = new ArrayList<StoreEmployee>();
         }
         return employees;
     }
@@ -96,11 +86,37 @@ public class Store {
         }
     }
 
+    /**
+     * Gets the current total sales of the store.
+     * @return Store sales
+     */
     public double getCurrentSales() {
-        return 0; // sum of all employee sales
+        double totalSales = 0;
+        for (StoreEmployee emp : employees) {
+            totalSales += emp.getCurrentSales();
+        }
+        totalSales += manager.getCurrentSales();
+        return totalSales; // sum of all employee sales
     }
 
     /* Payroll operations*/
+
+    /**
+     * Calculates the total commission to be paid out by the store.
+     * @return Total store commission
+     */
+    public double getTotalCommissions() {
+        double totalCommission = 0;
+        for (StoreEmployee emp : employees) {
+//            if (CommissionedEmployee.class.isAssignableFrom(emp.getClass())) {
+            if (emp instanceof SalesAssociate) {
+                SalesAssociate sa = (SalesAssociate)emp;
+                totalCommission += sa.calculateCommission();
+            }
+        }
+        totalCommission += manager.calculateCommission();
+        return totalCommission;
+    }
 
     /**
      * Calculates current payroll and creates a payroll record for each of the
@@ -117,19 +133,19 @@ public class Store {
         return payroll;
     }
 
-    /**
-     * Prints out a copy of the store's current payroll records.
-     */
-    public void printPayroll() {
-        if (payroll != null) {
-            for (PayrollRecord pr : payroll) {
-                System.out.println(pr.getRecord());
-            }
-        }
-        else {
-            System.out.println("There are no payroll records");
-        }
-    }
+//    /**
+//     * Prints out a copy of the store's current payroll records.
+//     */
+//    public void printPayroll() {
+//        if (payroll != null) {
+//            for (PayrollRecord pr : payroll) {
+//                System.out.println(pr.getRecord());
+//            }
+//        }
+//        else {
+//            System.out.println("There are no payroll records");
+//        }
+//    }
 
     /**
      * Returns any existing payroll records.
@@ -146,5 +162,7 @@ public class Store {
         }
         return payroll;
     }
+
+
 
 }
