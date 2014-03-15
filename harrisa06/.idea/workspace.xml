@@ -191,12 +191,17 @@
         </subPane>
       </pane>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
 =======
       <pane id="PackagesPane" />
       <pane id="Scope" />
 >>>>>>> 7d220f6f5dcdaf2a6068a6e438bdafb678b840b0
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> workspace.xml file again.
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,19 +385,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -418,6 +410,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -555,8 +560,12 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33006135" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+=======
+>>>>>>> workspace.xml file again.
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -603,16 +612,12 @@
 =======
 >>>>>>> 7d220f6f5dcdaf2a6068a6e438bdafb678b840b0
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
-          <folding />
-        </state>
+        <state line="36" column="0" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="62" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
-          <folding />
-        </state>
+        <state line="30" column="62" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Store.java">
@@ -672,62 +677,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/common/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="510">
-          <folding />
-        </state>
+        <state line="24" column="0" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/common/AbstractEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="16" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/PayrollRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.306" vertical-offset="0" max-vertical-offset="935">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.306" vertical-offset="0" max-vertical-offset="935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/common/CommissionedEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.2801014" vertical-offset="0" max-vertical-offset="789">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.2801014" vertical-offset="0" max-vertical-offset="789" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="44" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.3878327" vertical-offset="1071" max-vertical-offset="2040">
-          <folding />
-        </state>
+        <state line="81" column="44" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.3878327" vertical-offset="1071" max-vertical-offset="2040" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/SalesAssociate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-          <folding />
-        </state>
+        <state line="19" column="5" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/StoreEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="31" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1326">
-          <folding />
-        </state>
+        <state line="41" column="31" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1326" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="35" selection-start="606" selection-end="606" vertical-scroll-proportion="0.53865653" vertical-offset="0" max-vertical-offset="2958">
-          <folding />
-        </state>
+        <state line="25" column="35" selection-start="606" selection-end="606" vertical-scroll-proportion="0.53865653" vertical-offset="0" max-vertical-offset="2958" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/washington/ext/StoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state line="30" column="62" selection-start="714" selection-end="714" vertical-scroll-proportion="-0.03421462" vertical-offset="660" max-vertical-offset="1738">
 =======
@@ -735,6 +725,9 @@
 >>>>>>> 7d220f6f5dcdaf2a6068a6e438bdafb678b840b0
           <folding />
         </state>
+=======
+        <state line="13" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.2801014" vertical-offset="0" max-vertical-offset="2397" />
+>>>>>>> workspace.xml file again.
       </provider>
     </entry>
   </component>
