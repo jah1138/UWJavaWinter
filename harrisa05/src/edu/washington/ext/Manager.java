@@ -2,6 +2,7 @@ package edu.washington.ext;
 
 /**
  * Creates a Store Manager.
+ *
  * @author Alex Harris
  * @version February 27, 2014
  */
@@ -12,7 +13,7 @@ public class Manager implements Employee {
     static double bonusRate = 0.005;
 
     /**
-     * Creates a Manager
+     * Creates a Manager.
      * @param name Manager's name
      */
     public Manager(String name) {
@@ -20,7 +21,7 @@ public class Manager implements Employee {
     }
 
     /**
-     * Sets the bonus rate for all managers.
+     * Sets the bonus rate which applies to all managers.
      * @param rate Bonus rate
      */
     public static void setBonusRate(double rate) {
@@ -28,32 +29,32 @@ public class Manager implements Employee {
     }
 
     /**
-     * Set manager's current sales
-     * @param sales Manager's sales
+     * Sets manager's current total individual sales amount.
+     * @param sales Manager's current individual sales.
      */
     public void setCurrentSales(double sales) {
         currentSales = sales;
     }
 
     /**
-     * Gets manager's current sales
-     * @return Manager's sales
+     * Gets manager's current total individual sales amount.
+     * @return Manager's current individual sales.
      */
     public double getCurrentSales() {
         return currentSales;
     }
 
     /**
-     * Sets manager's base pay
-     * @param basePay Manager's base pay
+     * Sets the manager's base salary.
+     * @param basePay Manager's base salary.
      */
     public void setBasePay(double basePay) {
         this.basePay = basePay;
     }
 
     /**
-     * Sets the manager's current store sales
-     * @param currentSales Current store sales
+     * Sets the current total sales for the manager's store.
+     * @param currentSales Current store sales.
      */
     public void setCurrentStoreSales(double currentSales) {
         currentStoreSales = currentSales;
@@ -64,8 +65,8 @@ public class Manager implements Employee {
      * Seems weird that this number belongs to the manager and not the store.
      */
     /**
-     * Gets the current sales for the Manager's store
-     * @return Current store sales
+     * Gets the current total sales for the manager's store.
+     * @return Current store sales.
      */
     public double getCurrentStoreSales() {
         return currentStoreSales;
@@ -80,7 +81,8 @@ public class Manager implements Employee {
     }
 
     /**
-     * Calculates manager's pay
+     * Calculates manager's pay.
+     * The caluculation is: Manager's base salary + (Store sales * Commission rate)
      * @return Manager's pay
      */
     public double calculatePay() {

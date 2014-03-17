@@ -69,6 +69,7 @@ public class StoreTest {
      */
     @Test
     public void testProcessPayroll() {
+        testStore.processPayroll();
         assertNotNull(testStore.getPayroll());
         assertNotNull(testStore.getEmployees());
         assertEquals(testStore.getPayroll().length, testStore.getEmployees().size(), .001);
@@ -87,12 +88,12 @@ public class StoreTest {
      */
     @Test
     public void testNumbers() {
-        assertEquals(manager.calculatePay(), MANAGER_PAY, 001);
-        assertEquals(officeEmp.calculatePay(), OFFICE_EMP_PAY, 001);
-        assertEquals(salesAssociate01.calculatePay(), ASS0CIATE01_PAY, 001);
-        assertEquals(salesAssociate02.calculatePay(), ASSOCIATE02_PAY, 001);
-        assertEquals(salesAssociate03.calculatePay(), ASSOCIATE03_PAY, 001);
-        assertEquals(testStore.getCurrentSales(), STORE_CURRENT_SALES, 001);
+        assertEquals(manager.calculatePay(), MANAGER_PAY, .001);
+        assertEquals(officeEmp.calculatePay(), OFFICE_EMP_PAY, .001);
+        assertEquals(salesAssociate01.calculatePay(), ASS0CIATE01_PAY, .001);
+        assertEquals(salesAssociate02.calculatePay(), ASSOCIATE02_PAY, .001);
+        assertEquals(salesAssociate03.calculatePay(), ASSOCIATE03_PAY, .001);
+        assertEquals(testStore.getCurrentSales(), STORE_CURRENT_SALES, .001);
     }
 
 //    @Test
@@ -100,7 +101,7 @@ public class StoreTest {
 //        testStore.processPayroll();
 //        testStore.printPayroll();
 //    }
-//
+
 //    @Test
 //    public void testPrintEmployees() {
 //        testStore.printEmployees();

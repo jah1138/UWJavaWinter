@@ -1,0 +1,230 @@
+﻿Merge branch 'master' of github.com:jah1138/UWJavaWinter
+
+Conflicts:
+	harrisa05/.idea/workspace.xml
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 9 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#   (use "git commit" to conclude merge)
+#
+# Changes to be committed:
+#
+#	deleted:    CodePlay/src/CodePlay.java
+#	modified:   harrisa05/.idea/checkstyle-idea.xml
+#	new file:   harrisa05/.idea/codeStyleSettings.xml
+#	modified:   harrisa05/.idea/compiler.xml
+#	modified:   harrisa05/.idea/misc.xml
+#	modified:   harrisa05/.idea/workspace.xml
+#	modified:   harrisa05/classes/edu/washington/ext/Manager.class
+#	modified:   harrisa05/classes/edu/washington/ext/PayrollRecord.class
+#	renamed:    harrisa05/out/production/harrisa05/edu/washington/ext/SalesAssociate.class -> harrisa05/classes/edu/washington/ext/SalesAssociate.class
+#	modified:   harrisa05/classes/edu/washington/ext/Store.class
+#	renamed:    harrisa05/out/production/harrisa05/edu/washington/ext/StoreEmployee.class -> harrisa05/classes/edu/washington/ext/StoreEmployee.class
+#	modified:   harrisa05/harrisa05.iml
+#	new file:   harrisa05/javadocs/allclasses-frame.html
+#	new file:   harrisa05/javadocs/allclasses-noframe.html
+#	new file:   harrisa05/javadocs/constant-values.html
+#	new file:   harrisa05/javadocs/deprecated-list.html
+#	new file:   harrisa05/javadocs/edu/washington/ext/Employee.html
+#	new file:   harrisa05/javadocs/edu/washington/ext/Manager.html
+#	new file:   harrisa05/javadocs/edu/washington/ext/PayrollRecord.html
+#	new file:   harrisa05/javadocs/edu/washington/ext/SalesAssociate.html
+#	new file:   harrisa05/javadocs/edu/washington/ext/Store.html
+#	new file:   harrisa05/javadocs/edu/washington/ext/StoreEmployee.html
+#	new file:   harrisa05/javadocs/edu/washington/ext/StoreTest.html
+#	new file:   harrisa05/javadocs/edu/washington/ext/package-frame.html
+#	new file:   harrisa05/javadocs/edu/washington/ext/package-summary.html
+#	new file:   harrisa05/javadocs/edu/washington/ext/package-tree.html
+#	new file:   harrisa05/javadocs/help-doc.html
+#	new file:   harrisa05/javadocs/index-files/index-1.html
+#	new file:   harrisa05/javadocs/index-files/index-2.html
+#	new file:   harrisa05/javadocs/index-files/index-3.html
+#	new file:   harrisa05/javadocs/index-files/index-4.html
+#	new file:   harrisa05/javadocs/index-files/index-5.html
+#	new file:   harrisa05/javadocs/index-files/index-6.html
+#	new file:   harrisa05/javadocs/index-files/index-7.html
+#	new file:   harrisa05/javadocs/index-files/index-8.html
+#	new file:   harrisa05/javadocs/index.html
+#	new file:   harrisa05/javadocs/overview-tree.html
+#	new file:   harrisa05/javadocs/package-list
+#	new file:   harrisa05/javadocs/resources/background.gif
+#	new file:   harrisa05/javadocs/resources/tab.gif
+#	new file:   harrisa05/javadocs/resources/titlebar.gif
+#	new file:   harrisa05/javadocs/resources/titlebar_end.gif
+#	new file:   harrisa05/javadocs/stylesheet.css
+#	deleted:    harrisa05/out/production/harrisa05/edu/washington/ext/Employee.class
+#	deleted:    harrisa05/out/production/harrisa05/edu/washington/ext/Manager.class
+#	deleted:    harrisa05/out/production/harrisa05/edu/washington/ext/PayrollRecord.class
+#	deleted:    harrisa05/out/production/harrisa05/edu/washington/ext/Store.class
+#	new file:   harrisa05/src/answer.txt
+#	modified:   harrisa05/src/edu/washington/ext/Employee.java
+#	modified:   harrisa05/src/edu/washington/ext/Manager.java
+#	modified:   harrisa05/src/edu/washington/ext/PayrollRecord.java
+#	modified:   harrisa05/src/edu/washington/ext/SalesAssociate.java
+#	modified:   harrisa05/src/edu/washington/ext/Store.java
+#	modified:   harrisa05/src/edu/washington/ext/StoreEmployee.java
+#	modified:   harrisa05/test/edu/washington/ext/StoreTest.class
+#	modified:   harrisa05/test/edu/washington/ext/StoreTest.java
+#	new file:   harrisa06/.idea/.name
+#	new file:   harrisa06/.idea/checkstyle-idea.xml
+#	new file:   harrisa06/.idea/codeStyleSettings.xml
+#	new file:   harrisa06/.idea/compiler.xml
+#	new file:   harrisa06/.idea/copyright/profiles_settings.xml
+#	new file:   harrisa06/.idea/dictionaries/Alex.xml
+#	new file:   harrisa06/.idea/dictionaries/chq_alexh.xml
+#	new file:   harrisa06/.idea/encodings.xml
+#	new file:   harrisa06/.idea/inspectionProfiles/Project_Default.xml
+#	new file:   harrisa06/.idea/inspectionProfiles/profiles_settings.xml
+#	new file:   harrisa06/.idea/misc.xml
+#	new file:   harrisa06/.idea/modules.xml
+#	new file:   harrisa06/.idea/scopes/scope_settings.xml
+#	new file:   harrisa06/.idea/uiDesigner.xml
+#	new file:   harrisa06/.idea/vcs.xml
+#	new file:   harrisa06/.idea/workspace.xml
+#	new file:   harrisa06/classes/edu/washington/ext/Manager.class
+#	new file:   harrisa06/classes/edu/washington/ext/PayrollRecord.class
+#	new file:   harrisa06/classes/edu/washington/ext/SalesAssociate.class
+#	new file:   harrisa06/classes/edu/washington/ext/Store.class
+#	new file:   harrisa06/classes/edu/washington/ext/StoreEmployee.class
+#	new file:   harrisa06/classes/edu/washington/ext/common/AbstractEmployee.class
+#	new file:   harrisa06/classes/edu/washington/ext/common/CommissionedEmployee.class
+#	new file:   harrisa06/classes/edu/washington/ext/common/Employee.class
+#	new file:   harrisa06/harrisa06.iml
+#	new file:   harrisa06/javadocs/allclasses-frame.html
+#	new file:   harrisa06/javadocs/allclasses-noframe.html
+#	new file:   harrisa06/javadocs/constant-values.html
+#	new file:   harrisa06/javadocs/deprecated-list.html
+#	new file:   harrisa06/javadocs/edu/washington/ext/Employee.html
+#	new file:   harrisa06/javadocs/edu/washington/ext/Manager.html
+#	new file:   harrisa06/javadocs/edu/washington/ext/PayrollRecord.html
+#	new file:   harrisa06/javadocs/edu/washington/ext/SalesAssociate.html
+#	new file:   harrisa06/javadocs/edu/washington/ext/Store.html
+#	new file:   harrisa06/javadocs/edu/washington/ext/StoreEmployee.html
+#	new file:   harrisa06/javadocs/edu/washington/ext/StoreTest.html
+#	new file:   harrisa06/javadocs/edu/washington/ext/package-frame.html
+#	new file:   harrisa06/javadocs/edu/washington/ext/package-summary.html
+#	new file:   harrisa06/javadocs/edu/washington/ext/package-tree.html
+#	new file:   harrisa06/javadocs/help-doc.html
+#	new file:   harrisa06/javadocs/index-files/index-1.html
+#	new file:   harrisa06/javadocs/index-files/index-2.html
+#	new file:   harrisa06/javadocs/index-files/index-3.html
+#	new file:   harrisa06/javadocs/index-files/index-4.html
+#	new file:   harrisa06/javadocs/index-files/index-5.html
+#	new file:   harrisa06/javadocs/index-files/index-6.html
+#	new file:   harrisa06/javadocs/index-files/index-7.html
+#	new file:   harrisa06/javadocs/index-files/index-8.html
+#	new file:   harrisa06/javadocs/index.html
+#	new file:   harrisa06/javadocs/overview-tree.html
+#	new file:   harrisa06/javadocs/package-list
+#	new file:   harrisa06/javadocs/resources/background.gif
+#	new file:   harrisa06/javadocs/resources/tab.gif
+#	new file:   harrisa06/javadocs/resources/titlebar.gif
+#	new file:   harrisa06/javadocs/resources/titlebar_end.gif
+#	new file:   harrisa06/javadocs/stylesheet.css
+#	new file:   harrisa06/src/edu/washington/ext/Manager.java
+#	new file:   harrisa06/src/edu/washington/ext/PayrollRecord.java
+#	new file:   harrisa06/src/edu/washington/ext/SalesAssociate.java
+#	new file:   harrisa06/src/edu/washington/ext/Store.java
+#	new file:   harrisa06/src/edu/washington/ext/StoreEmployee.java
+#	new file:   harrisa06/src/edu/washington/ext/common/AbstractEmployee.java
+#	new file:   harrisa06/src/edu/washington/ext/common/CommissionedEmployee.java
+#	new file:   harrisa06/src/edu/washington/ext/common/Employee.java
+#	new file:   harrisa06/test/edu/washington/ext/StoreTest.class
+#	new file:   harrisa06/test/edu/washington/ext/StoreTest.java
+#	new file:   harrisa07 - Copy/harrisa07.iml
+#	new file:   harrisa07 - Copy/pom.xml
+#	new file:   harrisa07 - Copy/src/main/java/DiscountException.java
+#	new file:   harrisa07 - Copy/src/main/java/Invoice.java
+#	new file:   harrisa07 - Copy/src/main/java/InvoiceItem.java
+#	new file:   harrisa07 - Copy/src/main/java/Item.java
+#	new file:   harrisa07 - Copy/src/main/main.iml
+#	new file:   harrisa07 - Copy/src/test/java/InvoiceTest.java
+#	renamed:    CodePlay/CodePlay.iml -> harrisa07 - Copy/src/test/test.iml
+#	new file:   harrisa07 - Copy/target/classes/DiscountException.class
+#	new file:   harrisa07 - Copy/target/classes/Invoice.class
+#	new file:   harrisa07 - Copy/target/classes/InvoiceItem.class
+#	new file:   harrisa07 - Copy/target/classes/Item.class
+#	new file:   harrisa07/.idea/.name
+#	new file:   harrisa07/.idea/checkstyle-idea.xml
+#	new file:   harrisa07/.idea/compiler.xml
+#	new file:   harrisa07/.idea/copyright/profiles_settings.xml
+#	new file:   harrisa07/.idea/encodings.xml
+#	new file:   harrisa07/.idea/misc.xml
+#	new file:   harrisa07/.idea/modules.xml
+#	new file:   harrisa07/.idea/scopes/scope_settings.xml
+#	new file:   harrisa07/.idea/uiDesigner.xml
+#	new file:   harrisa07/.idea/vcs.xml
+#	new file:   harrisa07/.idea/workspace.xml
+#	new file:   harrisa07/harrisa07.iml
+#	new file:   harrisa07/pom.xml
+#	new file:   harrisa07/src/main/java/DiscountException.java
+#	new file:   harrisa07/src/main/java/Invoice.java
+#	new file:   harrisa07/src/main/java/InvoiceItem.java
+#	new file:   harrisa07/src/main/java/Item.java
+#	new file:   harrisa07/src/main/main.iml
+#	new file:   harrisa07/src/test/java/InvoiceTest.java
+#	new file:   harrisa07/src/test/test.iml
+#	new file:   harrisa07/target/classes/DiscountException.class
+#	new file:   harrisa07/target/classes/Invoice.class
+#	new file:   harrisa07/target/classes/InvoiceItem.class
+#	new file:   harrisa07/target/classes/Item.class
+#	new file:   harrisafinal/.idea/.name
+#	new file:   harrisafinal/.idea/checkstyle-idea.xml
+#	new file:   harrisafinal/.idea/compiler.xml
+#	new file:   harrisafinal/.idea/copyright/profiles_settings.xml
+#	new file:   harrisafinal/.idea/encodings.xml
+#	new file:   harrisafinal/.idea/misc.xml
+#	new file:   harrisafinal/.idea/modules.xml
+#	new file:   harrisafinal/.idea/scopes/scope_settings.xml
+#	new file:   harrisafinal/.idea/uiDesigner.xml
+#	new file:   harrisafinal/.idea/vcs.xml
+#	new file:   harrisafinal/.idea/workspace.xml
+#	new file:   harrisafinal/harrisafinal.iml
+#	new file:   harrisafinal/pom.xml
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/AbstractLibraryItem.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/Binding.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/Book.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/CheckInOutException.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/DigitalMedia.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/Library.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/LibraryException.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/LibraryItem.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/MediaType.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/MovieGenre.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/Music.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/MusicGenre.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/Patron.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/PatronException.java
+#	new file:   harrisafinal/src/main/java/edu/washington/ext/libraryproject/model/common/Video.java
+#	new file:   harrisafinal/src/test/java/edu/washington/ext/libraryproject/model/common/LibraryTest.java
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/AbstractLibraryItem.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/Binding.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/Book.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/CheckInOutException.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/DigitalMedia.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/Library.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/LibraryException.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/LibraryItem.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/MediaType.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/MovieGenre.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/Music.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/MusicGenre.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/Patron.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/PatronException.class
+#	new file:   harrisafinal/target/classes/edu/washington/ext/libraryproject/model/common/Video.class
+#	new file:   harrisafinal/target/test-classes/edu/washington/ext/libraryproject/model/common/LibraryTest.class
+#	deleted:    harrisamid.zip
+#
+

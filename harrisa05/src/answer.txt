@@ -1,0 +1,44 @@
+1. What are the fundamental differences between composition and inheritance?
+
+Composition has to do with classes that are substantially made up of a number of otherwise unrelated classes. A Car
+class can largely be made up of other classes such as Engine, Door, Trunk, Window, Chassis, and so on, each of which has
+its own set of attributes and behaviors. In this way, many of the attributes and behaviors associated with the Car class
+are are are actually defined by the classes it uses. The relationship between the primary class and the subsidiary
+classes is known as a "has a" relationship -- the Car "has an" engine, "has a" door, and so on.
+
+Inheritance has to do with a new class that's created as a specialized version of a class. The new class is the same
+type of class as the original and so by definition has access to all of the attributes and behaviors of the original.
+However, the new class has some characteristics that make it unique. For example, the ElectricCar class is a specialized
+version of the Car class. The ElectricCar has almost all the behaviors as any other Car, but there are a few things that
+make it unique that the Car class can't have. It has a battery, for example, and it doesn't measure efficiency in MPG.
+The relationship between the new class and the original class is known as an "is a" relationship -- the ElectricCar "is
+a" Car.
+
+
+2. What is delegation and how is it related to wrapper classes?
+
+Delegation is the practice of one class “borrowing” another class to gain access to its functionality. To the caller it
+appears that they are dealing with an object of type A, but through the interface of A they’re really accessing the
+behavior of B. A is kind of like a proxy or intermediary for B.
+
+
+3. How is Java's interface inheritance similar to and different from multiple class inheritance?
+
+Inheriting from interfaces and classes is similar in that they both provide a predefined set of attributes and behaviors
+to the class that inherits from them.
+
+The primary difference is that the interface provides only a definition of the characteristics that the derived class
+must have, and the author of the derived class must implement the behaviors inside the derived class. Class inheritance,
+on the other hand, provides full access to the behaviors of the super class without the need to write any code in the
+derived class.
+
+If a derived class can inherit attributes and behaviors from multiple classes, it can end up with the full capabilities
+of many other classes -- but none of these characteristics actually appear in the code of the derived class. This can
+result in code that’s very difficult to understand, use, troubleshoot, and refactor. This practice also really defeats
+the purpose of OOP, which is to simplify programming by creating small, simple, reusable classes which provide one
+tightly-focused function. Restricting inheritance to just a single class enables Java to avoid this problem.
+
+The better way to provide the benefits of multiple inheritance is through the interface. Since the behavior defined by
+an interface must be implemented in the derived class, the implementation of multiple interfaces’ behaviors will be
+visible within the class, and makes the class far easier to understand and use. It also means that the derived class
+isn’t as tightly coupled to other classes, so the program will be more robust.
