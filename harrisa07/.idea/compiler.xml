@@ -23,7 +23,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="harrisa07m" />
-        <module name="harrisfinal" />
       </profile>
     </annotationProcessing>
   </component>

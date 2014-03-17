@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="2" />
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13f0fd90-db85-402d-8d60-a350073364da" name="Default" comment="" />
+    <list default="true" id="58dad530-7e5e-44b0-9ac7-6cd63ff0b1ad" name="Default" comment="" />
     <ignored path="harrisa05.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +37,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
       </breakpoint>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -53,8 +54,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="&#13;&#13;JAVA" />
-        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
@@ -66,21 +67,7 @@
     <favorites_list name="harrisa05" />
   </component>
   <component name="FileEditorManager">
-<<<<<<< HEAD
-    <leaf>
-      <file leaf-file-name="Manager.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="62" selection-start="714" selection-end="714" vertical-scroll-proportion="-0.03421462" vertical-offset="660" max-vertical-offset="1738">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-=======
     <leaf />
->>>>>>> 7d220f6f5dcdaf2a6068a6e438bdafb678b840b0
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -90,21 +77,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/StoreEmployee.java" />
-        <option value="$PROJECT_DIR$/src/answer.txt" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/Employee.java" />
-        <option value="$PROJECT_DIR$/javadocs/index.html" />
-        <option value="$PROJECT_DIR$/harrisfinal/pom.xml" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/edu/washington/ext/common/Employee.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/edu/washington/ext/common/CommissionedEmployee.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/edu/washington/ext/common/AbstractEmployee.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/PayrollRecord.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/JuniorManager.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/common/AbstractEmployee.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/SalesAssociate.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/Manager.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/StoreEmployee.java" />
-        <option value="$PROJECT_DIR$/src/edu/washington/ext/Store.java" />
+        <option value="$PROJECT_DIR$/../harrisa07m/pom.xml" />
+        <option value="$PROJECT_DIR$/../harrisa07m/src/test/java/InvoiceTest.java" />
+        <option value="$PROJECT_DIR$/../harrisa07m/src/main/java/InvoiceItem.java" />
+        <option value="$PROJECT_DIR$/../harrisa07m/src/main/java/Item.java" />
+        <option value="$PROJECT_DIR$/../harrisa07m/src/main/java/DiscountException2.java" />
+        <option value="$PROJECT_DIR$/../harrisa07m/src/main/java/Invoice.java" />
+        <option value="$PROJECT_DIR$/../harrisa07m/src/main/java/DiscountException.java" />
         <option value="$PROJECT_DIR$/test/edu/washington/ext/StoreTest.java" />
       </list>
     </option>
@@ -117,17 +96,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-<<<<<<< HEAD
-    <option name="x" value="226" />
-    <option name="y" value="32" />
-    <option name="width" value="1159" />
-    <option name="height" value="824" />
-=======
-    <option name="x" value="32" />
-    <option name="y" value="13" />
-    <option name="width" value="1209" />
-    <option name="height" value="944" />
->>>>>>> 7d220f6f5dcdaf2a6068a6e438bdafb678b840b0
+    <option name="x" value="535" />
+    <option name="y" value="51" />
+    <option name="width" value="1033" />
+    <option name="height" value="989" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -137,18 +109,12 @@
             <id />
           </State>
           <State>
-            <id>Error handling</id>
-          </State>
-          <State>
-            <id>Inheritance issues</id>
-          </State>
-          <State>
-            <id>Visibility issues</id>
+            <id>CheckStyle</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>ParameterHidingMemberVariable</id>
+            <id>CheckStyle-IDEA</id>
           </State>
         </selected-state>
       </profile-state>
@@ -170,7 +136,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
-      <showMembers ProjectPane="false" />
+      <showMembers />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -180,6 +146,17 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="harrisa05" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,18 +167,6 @@
           </PATH>
         </subPane>
       </pane>
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-=======
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
->>>>>>> 7d220f6f5dcdaf2a6068a6e438bdafb678b840b0
-=======
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
->>>>>>> workspace.xml file again.
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,132 +176,48 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="options.lastSelected" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="options.lastSelected" value="editor" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="recentsLimit" value="5" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="LayoutCode.rearrangeEntriesPlain text" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/../harrisa07/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../harrisa07" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="edu.washington.ext" />
+      <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\IdeaProjects\UWJavaWinter" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\UWJavaWinter\harrisa07\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="edu.washington.ext" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IdeaProjects\UWJavaWinter\harrisa07\src" />
+      <recent name="C:\IdeaProjects\UWJavaWinter" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.StoreTest">
     <configuration default="false" name="StoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="harrisa06" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="edu.washington.ext" />
-      <option name="MAIN_CLASS_NAME" value="edu.washington.ext.StoreTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="StoreTest.testSomeThings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="harrisa06" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="edu.washington.ext" />
       <option name="MAIN_CLASS_NAME" value="edu.washington.ext.StoreTest" />
-      <option name="METHOD_NAME" value="testSomeThings" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="StoreTest.testProcessPayroll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="harrisa06" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.washington.ext" />
-      <option name="MAIN_CLASS_NAME" value="edu.washington.ext.StoreTest" />
-      <option name="METHOD_NAME" value="testProcessPayroll" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="StoreTest.testGetTotalCommissions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="harrisa06" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="edu.washington.ext" />
-      <option name="MAIN_CLASS_NAME" value="edu.washington.ext.StoreTest" />
-      <option name="METHOD_NAME" value="testGetTotalCommissions" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="All in harrisa06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="harrisa06" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -385,6 +266,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -410,19 +304,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -478,20 +359,12 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="JUnit.StoreTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StoreTest.testSomeThings" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StoreTest.testProcessPayroll" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StoreTest.testGetTotalCommissions" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in harrisa06" />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="JUnit.StoreTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in harrisa06" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StoreTest.testGetTotalCommissions" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StoreTest.testProcessPayroll" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StoreTest.testSomeThings" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -519,53 +392,40 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="13f0fd90-db85-402d-8d60-a350073364da" name="Default" comment="" />
-      <created>1393551641435</created>
-      <updated>1393551641435</updated>
+      <changelist id="58dad530-7e5e-44b0-9ac7-6cd63ff0b1ad" name="Default" comment="" />
+      <created>1394909178399</created>
+      <updated>1394909178399</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="226" y="32" width="1159" height="824" extended-state="0" />
-=======
-    <frame x="32" y="13" width="1209" height="944" extended-state="0" />
->>>>>>> 7d220f6f5dcdaf2a6068a6e438bdafb678b840b0
+    <frame x="535" y="51" width="1033" height="989" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24934839" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26051283" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22333637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32680538" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20330147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35460123" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
->>>>>>> 7d220f6f5dcdaf2a6068a6e438bdafb678b840b0
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28102565" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33006135" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-=======
->>>>>>> workspace.xml file again.
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39909297" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -582,152 +442,91 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-    </breakpoint-manager>
+    <breakpoint-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
-<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/test/edu/washington/ext/StoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="62" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1738">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="62" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1738">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/answer.txt">
-=======
->>>>>>> 7d220f6f5dcdaf2a6068a6e438bdafb678b840b0
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="62" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/StoreEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="7" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1241" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/common/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289" />
+        <state line="23" column="45" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2363" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/washington/ext/StoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="0" selection-start="3458" selection-end="3458" vertical-scroll-proportion="0.0" vertical-offset="1853" max-vertical-offset="1921" />
+        <state line="12" column="13" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2363" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/PayrollRecord.java">
+    <entry file="file://$PROJECT_DIR$/test/edu/washington/ext/StoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="861" selection-end="861" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="782" />
+        <state line="12" column="13" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2363" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
+    <entry file="file://$PROJECT_DIR$/test/edu/washington/ext/StoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="5" selection-start="1691" selection-end="1691" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="1632" />
+        <state line="12" column="13" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2363" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Store.java">
+    <entry file="file://$USER_HOME$/Desktop/src/AnException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1156" />
+        <state line="8" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.16287425" vertical-offset="0" max-vertical-offset="835" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
+    <entry file="file://$USER_HOME$/Desktop/src/AnotherException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="53" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1632" />
+        <state line="13" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.26467067" vertical-offset="0" max-vertical-offset="835" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Store.java">
+    <entry file="file://$USER_HOME$/Desktop/src/ExpandAbleArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="46" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0" vertical-offset="333" max-vertical-offset="1224" />
+        <state line="8" column="39" selection-start="238" selection-end="238" vertical-scroll-proportion="0.1588785" vertical-offset="0" max-vertical-offset="986" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
+    <entry file="file://$USER_HOME$/Desktop/src/PlayCodeFinally.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="53" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1632" />
+        <state line="7" column="30" selection-start="192" selection-end="192" vertical-scroll-proportion="0.14251497" vertical-offset="0" max-vertical-offset="835" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javadocs/index.html">
+    <entry file="file://$USER_HOME$/Desktop/src/Chemist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190" />
+        <state line="22" column="43" selection-start="410" selection-end="410" vertical-scroll-proportion="0.5115044" vertical-offset="51" max-vertical-offset="1156" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/common/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/StoreEmployee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/common/AbstractEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/PayrollRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.306" vertical-offset="0" max-vertical-offset="935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/common/CommissionedEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="258" selection-end="258" vertical-scroll-proportion="0.2801014" vertical-offset="0" max-vertical-offset="789" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="44" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.3878327" vertical-offset="1071" max-vertical-offset="2040" />
+        <state line="11" column="13" selection-start="230" selection-end="230" vertical-scroll-proportion="0.2239521" vertical-offset="0" max-vertical-offset="1326" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/SalesAssociate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="5" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037" />
+        <state line="10" column="19" selection-start="203" selection-end="203" vertical-scroll-proportion="0.2035928" vertical-offset="0" max-vertical-offset="1037" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/StoreEmployee.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="31" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1326" />
+        <state line="11" column="19" selection-start="247" selection-end="247" vertical-scroll-proportion="0.2239521" vertical-offset="0" max-vertical-offset="2040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/PayrollRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="157" selection-end="157" vertical-scroll-proportion="0.16287425" vertical-offset="0" max-vertical-offset="935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="35" selection-start="606" selection-end="606" vertical-scroll-proportion="0.53865653" vertical-offset="0" max-vertical-offset="2958" />
+        <state line="14" column="19" selection-start="284" selection-end="284" vertical-scroll-proportion="0.28502995" vertical-offset="0" max-vertical-offset="2958" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/edu/washington/ext/StoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <state line="30" column="62" selection-start="714" selection-end="714" vertical-scroll-proportion="-0.03421462" vertical-offset="660" max-vertical-offset="1738">
-=======
-        <state line="13" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.2801014" vertical-offset="0" max-vertical-offset="2397">
->>>>>>> 7d220f6f5dcdaf2a6068a6e438bdafb678b840b0
-          <folding />
-        </state>
-=======
-        <state line="13" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.2801014" vertical-offset="0" max-vertical-offset="2397" />
->>>>>>> workspace.xml file again.
+        <state line="25" column="7" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2397" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/washington/ext/common/AbstractEmployee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="190" selection-end="190" vertical-scroll-proportion="0.1588785" vertical-offset="0" max-vertical-offset="856" />
       </provider>
     </entry>
   </component>
@@ -782,7 +581,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>harrisa05</last-edited>
+          <last-edited>harrisa07m</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -805,17 +604,6 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
