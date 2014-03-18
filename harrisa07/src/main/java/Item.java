@@ -7,7 +7,7 @@ public final class Item {
      * Instance fields
      */
     private String description = null;
-    private double price = 0;
+    private double price = 0.00;
     private int sku = 0;
 
     /**

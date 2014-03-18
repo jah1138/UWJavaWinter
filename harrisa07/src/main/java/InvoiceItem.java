@@ -12,6 +12,10 @@ public final class InvoiceItem {
         this.quantity = quantity;
     }
 
+    public String getItemDescription() {
+        return item.getDescription();
+    }
+
     public int getQuantity() {
         return quantity;
     }
