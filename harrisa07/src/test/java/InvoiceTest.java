@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -39,24 +40,43 @@ public class InvoiceTest {
         invoiceItem.setDiscount(-0.05);
     }
 
-//    @Test (expected = IllegalArgumentException.class)
-//    public void testCreateInvoiceItem() throws IllegalArgumentException {
-//
-//        Item nullItem = null;
-//        InvoiceItem invoiceItem = new InvoiceItem(nullItem, 3);
-//    }
+    /**
+     * Tests for passing a null item as a parameter to InvoiceItem.
+     * @throws IllegalArgumentException
+     */
+    @Test (expected = IllegalArgumentException.class)
+    public void testCreateInvoiceItem() throws IllegalArgumentException {
+
+        Item nullItem = null;
+        InvoiceItem invoiceItem = new InvoiceItem(nullItem, 3);
+    }
 
     /**
      * Test for adding a null InvoiceItem to an invoice.
      * @throws IllegalArgumentException
      */
-//    @Test (expected = IllegalArgumentException.class)
-//    public void testAddInvoiceItem() throws IllegalArgumentException, DiscountException {
+    @Test (expected = IllegalArgumentException.class)
+    public void testAddInvoiceItem() throws IllegalArgumentException, DiscountException {
+
+        Invoice invoice = new Invoice();
+        InvoiceItem nullInvoiceItem = null;
+        invoice.addInvoiceItem(nullInvoiceItem);
+    }
+
+//     @Test
+//    public void testNewItem() throws DiscountException{
+//         Item item = new Item("Geegaw", 1200, 32211);
+//         Item item2 = new Item("Thing", 125, 11123);
+//         InvoiceItem invItem = new InvoiceItem(item2, 1);
+//         InvoiceItem invItem2 = new InvoiceItem(item, 12);
 //
-//        Invoice invoice = new Invoice();
-//        InvoiceItem nullInvoiceItem = null;
-//        invoice.addInvoiceItem(nullInvoiceItem);
-//    }
+//         Invoice invoice = new Invoice();
+//         invoice.addInvoiceItem(invItem);
+//         invoice.addInvoiceItem(invItem2);
+//         invoice.setInvoiceDiscount(0.10);
+//         invoice.printInvoice();
+//         invoice.processInvoice();
+//     }
 
     /**
      * Processes the invoice and tests whether InvoiceItems and Invoice
@@ -71,9 +91,12 @@ public class InvoiceTest {
         InvoiceItem monitorItem = new InvoiceItem(monitor, 5);
 
         Invoice invoice = new Invoice();
+
         invoice.addInvoiceItem(keyboardItem);
         invoice.addInvoiceItem(mouseItem);
         invoice.addInvoiceItem(monitorItem);
+
+        invoice.printInvoice();
 
         invoice.setInvoiceDiscount(0.10);
         keyboardItem.setDiscount(0.05);

@@ -7,7 +7,11 @@ public final class InvoiceItem {
     private int quantity = 0;
     private double discount = 0.00;
 
-    public InvoiceItem(Item item, int quantity) {
+    public InvoiceItem(Item item, int quantity) throws IllegalArgumentException {
+        if (item == null) {
+            System.out.println("Item is null.");
+            throw new IllegalArgumentException("Item is null.");
+        }
         this.item = item;
         this.quantity = quantity;
     }
