@@ -1,0 +1,19 @@
+Q: What was your experience using Eclipse or your tool of choice to complete the assignments?
+
+A: To tell the truth, learning how to use an IDE consumed a lot of my time. My programming history is mostly in
+scripting, and I hadn’t used an IDE before this class. I tend to like writing code, and kind of pooh-poohed the
+handholding and shortcuts the IDE gives developers. I ended up using Intellij IDEA, because I like being different and
+because it just felt and looked a little more pleasing to me.
+
+I’ve quickly understood that doing OOP and application programming without an IDE would be amazingly difficult. Just the
+immediate error-checking it provides and the confirmation of variable, method, and class names on the fly prevent a ton
+of really arduous work for the developer. For the most part it’s gone OK, but it took me a long time at first to figure
+out the Project/Module paradigm, just understanding the rudiments of application programming, such as the directory
+hierarchies, terminology, paths, and other myriad details that are common to most application programming languages… and
+then the million IDE settings you have to discover to control all these behaviors.
+
+CheckStyle has been almost more of an annoyance than a benefit. It flags errors for the most ridiculous things
+sometimes, and I haven’t had time to figure out how to configure it to my liking. There’s some kind of error it throws a
+lot which isn’t required but it interferes with my coding, so I end up disabling the plugin just so I can get some work
+done. Hence I can miss some details that would be caught by CheckStyle, such as unused import statements and that sort
+of thing. It’s been a learning process, and it has taken quite a lot of my study time, but I’m getting the hang of it.
