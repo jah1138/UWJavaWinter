@@ -3,7 +3,7 @@
  */
 public class DiscountException extends Exception {
 
-    private final InvoiceItem problemItem;
+    private InvoiceItem problemItem = null;
 
     /**
      * Constructs a new DiscountException with an non-specific message.

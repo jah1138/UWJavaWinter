@@ -1,5 +1,8 @@
+import org.junit.Test;
+
 /**
- * Created by Alex on 3/16/14.
+ * Author: Alex Harris
+ * Version: 3/16/14.
  */
 public class InvoiceTest {
 
@@ -10,37 +13,72 @@ public class InvoiceTest {
     Item mouse = new Item("Mouse", 1700, 56789);
     Item monitor = new Item("Monitor", 17500, 13579);
 
-//    final String ITEM_ONE_DESCRIPTION = "Keyboard";
-//    final String ITEM_TWO_DESCRIPTION = "Mouse";
-//    final String ITEM_THREE_DESCRIPTION = "Monitor";
-//    final double ITEM_ONE_PRICE = 2500;
-//    final double ITEM_TWO_PRICE = 1700;
-//    final double ITEM_THREE_PRICE = 17500;
-//    final int ITEM_ONE_SKU = 01234;
-//    final int ITEM_TWO_SKU = 56789;
-//    final int ITEM_THREE_SKU = 13579;
-
-//    Item keyboard = new Item(ITEM_ONE_DESCRIPTION, ITEM_ONE_PRICE, ITEM_ONE_SKU);
-//    Item mouse = new Item(ITEM_TWO_DESCRIPTION, ITEM_TWO_PRICE, ITEM_TWO_SKU);
-//    Item monitor = new Item(ITEM_THREE_DESCRIPTION, ITEM_THREE_PRICE, ITEM_THREE_SKU);
-
     public InvoiceTest() {
 
     }
 
     /**
-     * Tests
+     * Test for setting an Invoice discount to a negative number.
+     * @throws DiscountException
      */
-    public void testDiscountExceptionOne() {
-
-        InvoiceItem InvItemOne = new InvoiceItem(keyboard, 5);
-        InvoiceItem InvItemTwo = new InvoiceItem(mouse, 5);
-        InvoiceItem InvItemThree = new InvoiceItem(monitor, 5);
+    @Test (expected = DiscountException.class)
+    public void testSetInvoiceDiscount02() throws DiscountException {
 
         Invoice invoice = new Invoice();
-        invoice.setInvoiceDiscount(0.10);
-//        invoice.addInvoiceItem(InvItemOne);
-
+        invoice.setInvoiceDiscount(-0.10);
     }
 
+    /**
+     * Test for setting an InvoiceItem discount to a negative number.
+     * @throws DiscountException
+     */
+    @Test (expected = DiscountException.class)
+    public void testSetInvoiceItemDiscount() throws DiscountException {
+
+        InvoiceItem invoiceItem = new InvoiceItem(keyboard, 5);
+        invoiceItem.setDiscount(-0.05);
+    }
+
+//    @Test (expected = IllegalArgumentException.class)
+//    public void testCreateInvoiceItem() throws IllegalArgumentException {
+//
+//        Item nullItem = null;
+//        InvoiceItem invoiceItem = new InvoiceItem(nullItem, 3);
+//    }
+
+    /**
+     * Test for adding a null InvoiceItem to an invoice.
+     * @throws IllegalArgumentException
+     */
+//    @Test (expected = IllegalArgumentException.class)
+//    public void testAddInvoiceItem() throws IllegalArgumentException, DiscountException {
+//
+//        Invoice invoice = new Invoice();
+//        InvoiceItem nullInvoiceItem = null;
+//        invoice.addInvoiceItem(nullInvoiceItem);
+//    }
+
+    /**
+     * Processes the invoice and tests whether InvoiceItems and Invoice
+     * both have discounts.
+     * @throws DiscountException
+     */
+    @Test (expected = DiscountException.class)
+    public void testProcessInvoice() throws DiscountException {
+
+        InvoiceItem keyboardItem = new InvoiceItem(keyboard, 5);
+        InvoiceItem mouseItem = new InvoiceItem(mouse, 5);
+        InvoiceItem monitorItem = new InvoiceItem(monitor, 5);
+
+        Invoice invoice = new Invoice();
+        invoice.addInvoiceItem(keyboardItem);
+        invoice.addInvoiceItem(mouseItem);
+        invoice.addInvoiceItem(monitorItem);
+
+        invoice.setInvoiceDiscount(0.10);
+        keyboardItem.setDiscount(0.05);
+        monitorItem.setDiscount(0.25);
+
+        invoice.processInvoice();
+    }
 }

@@ -22,14 +22,19 @@ public final class InvoiceItem {
 
     public void setQuantity(int quantity) {
         this.quantity = quantity;
-    }
+}
 
     public double getDiscount() {
         return discount;
     }
 
-    public void setDiscount(double discount) {
+    public void setDiscount(double discount) throws DiscountException {
+        if (discount < 0) {
+            System.out.println("Discount cannot be negative.\n");
+            throw new DiscountException("Discount cannot be negative.");
+        }
         this.discount = discount;
+        System.out.println(item.getDescription() + " discount set to " + discount);
     }
 
     public double getTotalValue() {
