@@ -24,21 +24,34 @@ public class Invoice {
             System.out.println("Item " + e + " does not exist.");
         }
         if (invoiceDiscount > 0.00 && item.getDiscount() > 0) {
-            throw new DiscountException(item, "Discounted item (" +
-                    item + ") is not allowed on a discounted invoice.");
+            throw new DiscountException("Discounted item (" +
+                    item.getItemDescription() + ") cannot be added to a " +
+                    "discounted invoice.\n");
         }
-        System.out.println(item + " added to invoice.");
+        System.out.println(item.getQuantity() + " " + item.getItemDescription() +
+                " added to invoice");
     }
 
     public void removeInvoiceItem(InvoiceItem item) {
         invoiceItems.remove(item);
-        System.out.println(item + " removed from invoice.");
+        System.out.println(item + " removed from invoice");
     }
 
     public void setInvoiceDiscount(double invoiceDiscount) throws DiscountException {
         if (invoiceDiscount < 0) {
+            System.out.println("Discount cannot be negative.");
             throw new DiscountException("Discount cannot be negative.");
         }
+        this.invoiceDiscount = invoiceDiscount;
+        System.out.println("Invoice discount set to " + invoiceDiscount);
+    }
+
+    public double getInvoiceDiscount() {
+        return invoiceDiscount;
+    }
+
+    public void processInvoice() throws DiscountException {
+        System.out.println("Processing invoice...");
         if (invoiceItems.size() > 0) {
             HashMap<String, Double> discountList = new HashMap<String, Double>();
             for (InvoiceItem item : invoiceItems) {
@@ -47,21 +60,15 @@ public class Invoice {
                 }
             }
             if (discountList.size() > 0) {
-                System.out.println("Discounted items are included in this invoice:\n");
+                System.out.println("Discounted items cannot be included on a " +
+                        "discounted invoice.\nInvoice discount: " +
+                        invoiceDiscount + "\nDiscounted items:");
                 for (Map.Entry<String, Double> item : discountList.entrySet()) {
-                    System.out.println("Item: " + item.getKey() + " Discount: " + item.getValue());
+                    System.out.println(item.getKey() + ", discount: " + item.getValue());
                 }
                 throw new DiscountException("Invoice and items cannot both be discounted.");
             }
         }
-        this.invoiceDiscount = invoiceDiscount;
-    }
-
-    public double getInvoiceDiscount() {
-        return invoiceDiscount;
-    }
-
-    public void processInvoice() {
         System.out.println("#\tItem");
         for (InvoiceItem item : invoiceItems) {
             totalInvoiceValue += item.getTotalValue();
