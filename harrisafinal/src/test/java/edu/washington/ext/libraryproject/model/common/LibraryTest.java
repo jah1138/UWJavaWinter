@@ -1,5 +1,6 @@
 package edu.washington.ext.libraryproject.model.common;
 
+import edu.washington.ext.libraryproject.controller.Library;
 import org.junit.Test;
 
 /**
