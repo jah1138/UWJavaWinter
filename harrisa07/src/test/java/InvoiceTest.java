@@ -1,7 +1,7 @@
-import org.junit.Assert;
 import org.junit.Test;
 
 /**
+ * Class for testing the Invoice class features and function.
  * Author: Alex Harris
  * Version: 3/16/14.
  */
@@ -10,6 +10,7 @@ public class InvoiceTest {
     /**
      * Initialization data for test items
      */
+    @SuppressWarnings("OctalInteger")
     Item keyboard = new Item("Keyboard", 2500, 01234);
     Item mouse = new Item("Mouse", 1700, 56789);
     Item monitor = new Item("Monitor", 17500, 13579);
@@ -19,7 +20,7 @@ public class InvoiceTest {
     }
 
     /**
-     * Test for setting an Invoice discount to a negative number.
+     * Tests for setting an Invoice discount to a negative number.
      * @throws DiscountException
      */
     @Test (expected = DiscountException.class)
@@ -30,7 +31,7 @@ public class InvoiceTest {
     }
 
     /**
-     * Test for setting an InvoiceItem discount to a negative number.
+     * Tests for setting an InvoiceItem discount to a negative number.
      * @throws DiscountException
      */
     @Test (expected = DiscountException.class)
@@ -52,7 +53,7 @@ public class InvoiceTest {
     }
 
     /**
-     * Test for adding a null InvoiceItem to an invoice.
+     * Tests for adding a null InvoiceItem to an invoice.
      * @throws IllegalArgumentException
      */
     @Test (expected = IllegalArgumentException.class)
@@ -63,24 +64,8 @@ public class InvoiceTest {
         invoice.addInvoiceItem(nullInvoiceItem);
     }
 
-//     @Test
-//    public void testNewItem() throws DiscountException{
-//         Item item = new Item("Geegaw", 1200, 32211);
-//         Item item2 = new Item("Thing", 125, 11123);
-//         InvoiceItem invItem = new InvoiceItem(item2, 1);
-//         InvoiceItem invItem2 = new InvoiceItem(item, 12);
-//
-//         Invoice invoice = new Invoice();
-//         invoice.addInvoiceItem(invItem);
-//         invoice.addInvoiceItem(invItem2);
-//         invoice.setInvoiceDiscount(0.10);
-//         invoice.printInvoice();
-//         invoice.processInvoice();
-//     }
-
     /**
-     * Processes the invoice and tests whether InvoiceItems and Invoice
-     * both have discounts.
+     * Tests the check of conflicting discounts when processing an invoice.
      * @throws DiscountException
      */
     @Test (expected = DiscountException.class)

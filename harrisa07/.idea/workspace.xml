@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="8" />
     <option name="CUSTOM_SCOPE_NAME" value="Current File" />
   </component>
   <component name="ChangeListManager">
@@ -67,53 +66,7 @@
     <favorites_list name="harrisa07m" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="InvoiceTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/InvoiceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="32" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="1904">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Invoice.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Invoice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="72" selection-start="3785" selection-end="3785" vertical-scroll-proportion="0.7692308" vertical-offset="1037" max-vertical-offset="1853">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvoiceItem.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/InvoiceItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="25" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiscountException.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DiscountException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -123,19 +76,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DiscountException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/InvoiceItem.java" />
         <option value="$PROJECT_DIR$/src/test/java/InvoiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DiscountException.java" />
         <option value="$PROJECT_DIR$/src/main/java/Invoice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/InvoiceItem.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="59" />
-    <option name="y" value="19" />
-    <option name="width" value="1223" />
-    <option name="height" value="1047" />
+    <option name="x" value="252" />
+    <option name="y" value="47" />
+    <option name="width" value="1150" />
+    <option name="height" value="989" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -163,8 +116,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,102 +134,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harrisa07" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harrisa07" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harrisa07" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harrisa07" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harrisa07" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harrisa07" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harrisa07" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harrisa07" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harrisa07" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="harrisa07" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,7 +151,7 @@
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="options.lastSelected" value="preferences.sourceCode.General" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -300,29 +159,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.InvoiceTest.testProcessInvoice">
-    <configuration default="false" name="InvoiceTest.testSetInvoiceItemDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="harrisa07" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InvoiceTest" />
-      <option name="METHOD_NAME" value="testSetInvoiceItemDiscount" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.InvoiceTest">
     <configuration default="false" name="InvoiceTest.testCreateInvoiceItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="harrisa07" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -411,6 +248,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="InvoiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="harrisa07" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InvoiceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -445,6 +304,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -470,19 +342,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -539,19 +398,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testSetInvoiceItemDiscount" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testCreateInvoiceItem" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testAddInvoiceItem" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testNewItem" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testProcessInvoice" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testCreateInvoiceItem" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testAddInvoiceItem" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testNewItem" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testProcessInvoice" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.InvoiceTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testProcessInvoice" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testNewItem" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testAddInvoiceItem" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testCreateInvoiceItem" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testSetInvoiceItemDiscount" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.InvoiceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testProcessInvoice" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testNewItem" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testAddInvoiceItem" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.InvoiceTest.testCreateInvoiceItem" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -569,8 +428,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="19" width="1223" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="252" y="47" width="1150" height="989" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -578,6 +437,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32945284" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -589,13 +449,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2079536" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2678002" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23717949" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2072177" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26426077" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29220024" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -619,6 +478,41 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/InvoiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="1" selection-start="2473" selection-end="2473" vertical-scroll-proportion="0.0" vertical-offset="1411" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="5" selection-start="3708" selection-end="3708" vertical-scroll-proportion="0.0" vertical-offset="1547" max-vertical-offset="1666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InvoiceItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="25" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DiscountException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DiscountException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
@@ -738,37 +632,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Item.java">
+    <entry file="file://$PROJECT_DIR$/src/answer.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DiscountException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/InvoiceItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+        <state line="3" column="17" selection-start="224" selection-end="224" vertical-scroll-proportion="0.07943925" vertical-offset="0" max-vertical-offset="642">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/InvoiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="32" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="1904">
+        <state line="6" column="3" selection-start="137" selection-end="137" vertical-scroll-proportion="0.12244898" vertical-offset="0" max-vertical-offset="1649">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DiscountException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="742" selection-end="742" vertical-scroll-proportion="0.5714286" vertical-offset="0" max-vertical-offset="833">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Invoice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="72" selection-start="3785" selection-end="3785" vertical-scroll-proportion="0.7692308" vertical-offset="1037" max-vertical-offset="1853">
+        <state line="103" column="62" selection-start="3936" selection-end="3936" vertical-scroll-proportion="2.135366" vertical-offset="0" max-vertical-offset="2499">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="27" selection-start="1686" selection-end="1686" vertical-scroll-proportion="1.2040817" vertical-offset="289" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/InvoiceItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="0" selection-start="2992" selection-end="2992" vertical-scroll-proportion="2.0816326" vertical-offset="0" max-vertical-offset="1870">
           <folding />
         </state>
       </provider>

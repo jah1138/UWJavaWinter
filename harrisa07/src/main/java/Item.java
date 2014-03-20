@@ -1,5 +1,8 @@
 /**
- * Created by Alex on 3/16/14.
+ * Defines an item for sale. This can be used to create an inventory for a shop.
+ * Item is used when defining an InvoiceItem, which can be collected in an Invoice.
+ * Author: Alex
+ * Version: 3/16/14.
  */
 public final class Item {
 
@@ -29,26 +32,50 @@ public final class Item {
         this.sku = sku;
     }
 
+    /**
+     * Gets the item description.
+     * @return Item description.
+     */
     public String getDescription() {
         return description;
     }
 
+    /**
+     * Sets the item description.
+     * @param description Item description.
+     */
     public void setDescription(String description) {
         this.description = description;
     }
 
+    /**
+     * Gets the item price.
+     * @return Item price.
+     */
     public double getPrice() {
         return price;
     }
 
+    /**
+     * Sets the item price.
+     * @param price Item price, in cents.
+     */
     public void setPrice(double price) {
         this.price = price;
     }
 
+    /**
+     * Gets the item SKU.
+     * @return Item SKU.
+     */
     public int getSku() {
         return sku;
     }
 
+    /**
+     * Sets the item SKU.
+     * @param sku Item SKU.
+     */
     public void setSku(int sku) {
         this.sku = sku;
     }
