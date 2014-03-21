@@ -95,7 +95,7 @@
     <option name="x" value="50" />
     <option name="y" value="22" />
     <option name="width" value="1209" />
-    <option name="height" value="944" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -123,6 +123,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -133,8 +135,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,10 +144,10 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="options.lastSelected" value="project.scopes" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -159,11 +159,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../harrisa05" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="edu.washington.ext.libraryproject.model.common" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="edu.washington.ext.libraryproject.model.common" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.washington.ext.libraryproject.model" />
+      <recent name="edu.washington.ext.libraryproject" />
+      <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\IdeaProjects\UWJavaWinter\harrisafinal\src\main\java" />
@@ -248,6 +253,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -273,19 +291,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -357,6 +362,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b9855cf1-678a-4777-903e-dc59a48511c9" name="Default" comment="" />
@@ -366,7 +388,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="22" width="1209" height="944" extended-state="0" />
+    <frame x="50" y="22" width="1209" height="992" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -385,7 +407,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25282362" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2673931" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883435" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -416,7 +438,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/Library.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/controller/Library.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="5" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1394">
           <folding />
@@ -430,35 +452,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/LibraryItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/common/LibraryItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="17" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/MediaType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/MediaType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/Binding.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/Binding.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="5" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="5" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/Music.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="25" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="884">
           <folding />
@@ -472,63 +494,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/MovieGenre.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/MovieGenre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.30164766" vertical-offset="0" max-vertical-offset="789">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/PatronException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/controller/PatronException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="13" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/LibraryException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/controller/LibraryException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.15082383" vertical-offset="0" max-vertical-offset="789">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/CheckInOutException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/controller/CheckInOutException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="100" selection-end="156" vertical-scroll-proportion="0.086185046" vertical-offset="0" max-vertical-offset="789">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/DigitalMedia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="129" selection-end="129" vertical-scroll-proportion="0.15082383" vertical-offset="0" max-vertical-offset="789">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/Video.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/Video.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="35" selection-start="577" selection-end="577" vertical-scroll-proportion="0.2801014" vertical-offset="0" max-vertical-offset="1173">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/AbstractLibraryItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/common/AbstractLibraryItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="31" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.92648923" vertical-offset="0" max-vertical-offset="1411">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/MusicGenre.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/MusicGenre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.3878327" vertical-offset="0" max-vertical-offset="789">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/Library.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/controller/Library.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="5" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1394">
           <folding />
@@ -542,37 +557,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/LibraryItem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/common/LibraryItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="17" selection-start="230" selection-end="230" vertical-scroll-proportion="0.15969582" vertical-offset="95" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/MediaType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/MediaType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="0.15082383" vertical-offset="0" max-vertical-offset="789">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/Binding.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/Binding.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="5" selection-start="627" selection-end="627" vertical-scroll-proportion="0.6679341" vertical-offset="0" max-vertical-offset="789">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="5" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.5475285" vertical-offset="146" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/common/Music.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/washington/ext/libraryproject/model/Music.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="25" selection-start="890" selection-end="890" vertical-scroll-proportion="0.46134347" vertical-offset="95" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/libraryproject/DigitalMedia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="80" selection-end="80" vertical-scroll-proportion="0.1046798" vertical-offset="0" max-vertical-offset="812">
           <folding />
         </state>
       </provider>

@@ -1,7 +1,12 @@
+import edu.washington.ext.DiscountException;
+import edu.washington.ext.Invoice;
+import edu.washington.ext.InvoiceItem;
+import edu.washington.ext.Item;
 import org.junit.Test;
+import static org.junit.Assert.*;
 
 /**
- * Class for testing the Invoice class features and function.
+ * Class for testing the edu.washington.ext.Invoice class features and function.
  * Author: Alex Harris
  * Version: 3/16/14.
  */
@@ -20,7 +25,7 @@ public class InvoiceTest {
     }
 
     /**
-     * Tests for setting an Invoice discount to a negative number.
+     * Tests for setting an edu.washington.ext.Invoice discount to a negative number.
      * @throws DiscountException
      */
     @Test (expected = DiscountException.class)
@@ -31,7 +36,7 @@ public class InvoiceTest {
     }
 
     /**
-     * Tests for setting an InvoiceItem discount to a negative number.
+     * Tests for setting an edu.washington.ext.InvoiceItem discount to a negative number.
      * @throws DiscountException
      */
     @Test (expected = DiscountException.class)
@@ -42,7 +47,7 @@ public class InvoiceTest {
     }
 
     /**
-     * Tests for passing a null item as a parameter to InvoiceItem.
+     * Tests for passing a null item as a parameter to edu.washington.ext.InvoiceItem.
      * @throws IllegalArgumentException
      */
     @Test (expected = IllegalArgumentException.class)
@@ -53,7 +58,7 @@ public class InvoiceTest {
     }
 
     /**
-     * Tests for adding a null InvoiceItem to an invoice.
+     * Tests for adding a null edu.washington.ext.InvoiceItem to an invoice.
      * @throws IllegalArgumentException
      */
     @Test (expected = IllegalArgumentException.class)
@@ -65,8 +70,8 @@ public class InvoiceTest {
     }
 
     /**
-     * Tests the check of conflicting discounts when processing an invoice.
-     * @throws DiscountException
+     * Tests the check for conflicting discounts when processing an invoice.
+     * @throws edu.washington.ext.DiscountException
      */
     @Test (expected = DiscountException.class)
     public void testProcessInvoice() throws DiscountException {
@@ -81,12 +86,36 @@ public class InvoiceTest {
         invoice.addInvoiceItem(mouseItem);
         invoice.addInvoiceItem(monitorItem);
 
-        invoice.printInvoice();
-
         invoice.setInvoiceDiscount(0.10);
         keyboardItem.setDiscount(0.05);
         monitorItem.setDiscount(0.25);
 
         invoice.processInvoice();
+    }
+
+    /**
+     * Tests printing of good invoice
+     * @throws DiscountException
+     */
+    @Test
+    public void testProcessInvoice02() throws DiscountException {
+
+        InvoiceItem keyboardItem = new InvoiceItem(keyboard, 5);
+        InvoiceItem mouseItem = new InvoiceItem(mouse, 5);
+        InvoiceItem monitorItem = new InvoiceItem(monitor, 5);
+
+        Invoice invoice = new Invoice();
+
+        invoice.addInvoiceItem(keyboardItem);
+        invoice.addInvoiceItem(mouseItem);
+        invoice.addInvoiceItem(monitorItem);
+
+        keyboardItem.setDiscount(0.05);
+        monitorItem.setDiscount(0.25);
+
+        invoice.processInvoice();
+        assertEquals(108500, invoice.getTotalInvoiceValue(), .005);
+        assertEquals(22500, invoice.getTotalDiscountAmount(), .005);
+        assertEquals(86000, invoice.getTotalInvoiceNetDue(), .005);
     }
 }
