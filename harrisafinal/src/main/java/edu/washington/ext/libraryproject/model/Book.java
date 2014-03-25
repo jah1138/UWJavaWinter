@@ -1,22 +1,21 @@
 package edu.washington.ext.libraryproject.model;
 
 import edu.washington.ext.libraryproject.common.AbstractLibraryItem;
-
 import java.util.Date;
 
 /**
  * A class that maintains information on a book. This might form part of a
  * larger application such as a library system, for instance.
- *
+ * @author Alex
+ * @version 3/23/2014
  */
-
 public class Book extends AbstractLibraryItem {
 
     /** The type of media binding. */
-    private Binding binding;
+    private final Binding binding;
 
     /** The number of pages. */
-    private int pages;
+    private final int pages;
 
     /**
      * Constructor. Set the author, title and binding fields when this object is
@@ -49,8 +48,5 @@ public class Book extends AbstractLibraryItem {
     public int getPages() {
         return pages;
     }
-
-
-
 
 }

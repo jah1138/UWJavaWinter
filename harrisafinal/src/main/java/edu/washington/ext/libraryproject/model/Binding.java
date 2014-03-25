@@ -2,7 +2,8 @@ package edu.washington.ext.libraryproject.model;
 
 /**
  * The Enum Binding that defines binding values for books.
- *
+ *@author Alex Harris
+ * @version 3/23/2014
  */
 public enum Binding {
 
@@ -12,11 +13,10 @@ public enum Binding {
     MOBI("mobi"),
     APK("apk");
 
-    private String bindingType;
+    private final String bindingType;
 
     /**
      * Instantiates a new binding.
-     *
      * @param bindingType the binding type
      */
     Binding(final String bindingType) {

@@ -1,8 +1,9 @@
 package edu.washington.ext.libraryproject.model;
 
 /**
- *
- * @author appleman
+ * Enum which contains the type of disk media for library items.
+ * @author Alex Harris
+ * @version 3/23/2014
  */
 public enum MediaType {
 
@@ -10,13 +11,19 @@ public enum MediaType {
     Bluray("bluray"),
     CD("cd");
 
-    private String mediaType;
+    /** Field */
+    private final String mediaType;
 
+    /**
+     * Constructs the MediaType object.
+     * @param mediaType the selected media type.
+     */
      MediaType(final String mediaType) {
         this.mediaType = mediaType;
     }
 
     /**
+     * Returns the media type.
      * @return the mediaType
      */
     public String getMediaType() {
