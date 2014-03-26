@@ -49,7 +49,7 @@ public class Library {
      */
     public void add(LibraryItem item) throws LibraryException {
         if (isInLibraryCollection(item)) {
-            throw new LibraryException(item, item.getTitle() + " is already in the library collection.");
+            throw new LibraryException(item, "\"" + item.getTitle() + "\" is already in the library collection.");
         }
         items.add(item);
     }
@@ -62,10 +62,10 @@ public class Library {
      */
     public void remove(LibraryItem item) throws LibraryException, CheckInOutException {
         if (!isInLibraryCollection(item)) {
-            throw new LibraryException(item, item.getTitle() + " is not in the library collection.");
+            throw new LibraryException(item, "\"" + item.getTitle() + "\" is not in the library collection.");
         }
         if (isCheckout(item)) {
-            throw new LibraryException(item, item.getTitle() + " is currently checked out.");
+            throw new LibraryException(item, "\"" + item.getTitle() + "\" is currently checked out.");
         }
         items.remove(item);
     }
@@ -86,7 +86,7 @@ public class Library {
         Patron patron = new Patron(name, nextCardNumber);
         patrons.put(patron.getCardNumber(), patron);
         nextCardNumber ++;
-        System.out.println("Patron name and card number: " + patron.getName() + ", " + patron.getCardNumber());
+//        System.out.println("Patron name and card number: " + patron.getName() + ", " + patron.getCardNumber());
         return patron.getCardNumber();
     }
 
@@ -94,14 +94,16 @@ public class Library {
      * Removes a patron from the list of library patrons.
      * @param libraryCardNumber The ID number of the patron to be removed.
      * @return True if the patron was successfully removed.
-     * @throws PatronException if the patron number is not found in the list of patrons.
      */
-    public boolean removePatron(int libraryCardNumber) throws PatronException {
+    public boolean removePatron(int libraryCardNumber) {
+        Boolean reply = Boolean.TRUE;
         if (!patrons.containsKey(libraryCardNumber)) {
-            throw new PatronException("Patron not found.");
+            reply = Boolean.FALSE;
         }
-        patrons.remove(libraryCardNumber);
-        return true;
+        else {
+            patrons.remove(libraryCardNumber);
+        }
+        return reply;
     }
 
     /**
@@ -113,10 +115,10 @@ public class Library {
      */
     public void checkout(LibraryItem item, int libraryCardNumber) throws LibraryException, CheckInOutException {
         if (!isInLibraryCollection(item)) {
-            throw new LibraryException(item, item.getTitle() + " is not in the library collection");
+            throw new LibraryException(item, "\"" + item.getTitle() + "\" is not in the library collection");
         }
         if (isCheckout(item)) {
-            throw new CheckInOutException(item.getTitle() + " is already checked out.");
+            throw new CheckInOutException("\"" + item.getTitle() + "\" is already checked out.");
         }
         checkedOutItems.put(libraryCardNumber, item);
         item.setCheckedOut(patrons.get(libraryCardNumber));
@@ -130,10 +132,10 @@ public class Library {
      */
     public void checkin(LibraryItem item) throws LibraryException, CheckInOutException {
         if (!isInLibraryCollection(item)) {
-            throw new LibraryException(item, item.getTitle() + " is not in the library collection");
+            throw new LibraryException(item, "\"" + item.getTitle() + "\" is not in the library collection");
         }
         if (!isCheckout(item)) {
-            throw new CheckInOutException(item.getTitle() + " is not checked out.");
+            throw new CheckInOutException("\"" + item.getTitle() + "\" is not checked out.");
         }
         checkedOutItems.remove(item.getCheckedOutPatron().getCardNumber());
         item.setCheckedOut(null);
@@ -145,7 +147,6 @@ public class Library {
      * Checks to see if a referenced item exists in the library collection.
      * @param item The item to check for.
      * @return True if the item is listed as part of the library collection.
-     * @throws LibraryException If the item is not listed in the library collection.
      */
     private boolean isInLibraryCollection(LibraryItem item) {
         return (items.contains(item));
@@ -188,12 +189,4 @@ public class Library {
         return items;
     }
 
-    /**
-     * For testing purposes only! Not to be included with production application.
-     */
-    public void clearAllItems() {
-        items.clear();
-    }
-
 }
-
