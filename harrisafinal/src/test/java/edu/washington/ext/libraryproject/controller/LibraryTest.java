@@ -46,19 +46,32 @@ public class LibraryTest {
 
     @Test (expected = LibraryException.class)
     public void testAdd() throws LibraryException {
+        testLibrary.clearAllItems();
         testLibrary.add(testBook01);
-//     assertTrue(testLibrary.getListOfAllLibraryItems().contains(testBook01));
+     assertTrue(testLibrary.getListOfAllLibraryItems().contains(testBook01));
         testLibrary.add(testBook01);
     }
 
-    @Test
-    public void testRemove() throws Exception {
-
+    @Test (expected = LibraryException.class)
+    public void testRemove01() throws Exception {
+        testLibrary.clearAllItems();
+        assertTrue(!testLibrary.getListOfAllLibraryItems().contains(testBook02));
+        testLibrary.remove(testBook02);
     }
 
-    @Test
+    @Test (expected = LibraryException.class)
+    public void testRemove02() throws Exception {
+        testLibrary.clearAllItems();
+        testLibrary.add(testBook02);
+        Patron p = new Patron("Test Patron", 2345);
+        testLibrary.checkout(testBook02, 2345);
+        testLibrary.remove(testBook02);
+    }
+
+    @Test (expected = PatronException.class)
     public void testAddPatron() throws Exception {
-
+        testLibrary.addPatron("Test Patron");
+        testLibrary.addPatron("Test Patron");
     }
 
     @Test

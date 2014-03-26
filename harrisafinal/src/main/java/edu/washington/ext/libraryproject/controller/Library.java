@@ -77,15 +77,16 @@ public class Library {
      * @throws PatronException If the name is already exists in the list of patrons.
      */
     public int addPatron(String name) throws PatronException {
-        for (int i = 0; i < patrons.size(); i++) {
-            Patron patron = patrons.get(i);
-            if (patron.getName().equalsIgnoreCase(name)) {
-                throw new PatronException(patron, "Name " + name + " is already in use.");
+        for (Map.Entry<Integer, Patron> patron : patrons.entrySet()) {
+            Patron thisPatron = patrons.get(patron.getKey());
+            if (thisPatron.getName().equalsIgnoreCase(name)) {
+                throw new PatronException("Name \"" + name + "\" is already in use.");
             }
         }
         Patron patron = new Patron(name, nextCardNumber);
-        patrons.put(nextCardNumber, patron);
+        patrons.put(patron.getCardNumber(), patron);
         nextCardNumber ++;
+        System.out.println("Patron name and card number: " + patron.getName() + ", " + patron.getCardNumber());
         return patron.getCardNumber();
     }
 
@@ -146,8 +147,8 @@ public class Library {
      * @return True if the item is listed as part of the library collection.
      * @throws LibraryException If the item is not listed in the library collection.
      */
-    private boolean isInLibraryCollection(LibraryItem item) throws LibraryException {
-        return (!items.contains(item));
+    private boolean isInLibraryCollection(LibraryItem item) {
+        return (items.contains(item));
     }
 
     /**
@@ -185,6 +186,13 @@ public class Library {
      */
     public List<LibraryItem> getListOfAllLibraryItems() {
         return items;
+    }
+
+    /**
+     * For testing purposes only! Not to be included with production application.
+     */
+    public void clearAllItems() {
+        items.clear();
     }
 
 }
