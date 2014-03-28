@@ -27,7 +27,7 @@ public class Library {
      * Constructs a library object with a branch specifier.
      * @param branch Library branch.
      */
-    public Library (String branch) {
+    public Library (final String branch) {
         items = new ArrayList<LibraryItem>();
         patrons = new HashMap<Integer, Patron>();
         checkedOutItems = new HashMap<Integer, LibraryItem>();
@@ -166,11 +166,13 @@ public class Library {
     /* Methods to get the collections associated with the library. */
 
     /**
-     * Returns the HashMap containing all patrons.
-     * @return HashMap of library patrons.
+     * Returns a list of all library patrons.
+     * @return List of library patrons.
      */
-    public Map<Integer, Patron> getLibraryMembers() {
-        return patrons;
+    public ArrayList<Patron> getLibraryMembers() {
+        ArrayList<Patron> patronList = new ArrayList<Patron>();
+        patronList.addAll(patrons.values());
+        return patronList;
     }
 
     /**

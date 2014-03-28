@@ -16,7 +16,7 @@ public class Patron {
      * @param name Patron name.
      * @param cardNumber Patron's unique identifying number.
      */
-    public Patron(String name, int cardNumber) {
+    public Patron(final String name, int cardNumber) {
         this.name = name;
         this.cardNumber = cardNumber;
     }

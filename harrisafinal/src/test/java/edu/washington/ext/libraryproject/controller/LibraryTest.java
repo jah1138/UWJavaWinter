@@ -7,6 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -117,18 +118,22 @@ public class LibraryTest {
     }
 
     /** Test */
-    /* Kind of redundant. Just confirms that the map that is returned is actually
-     * the map of all library patrons. */
+    /* Checks that a list is returned that contains the same objects as the
+     * patron list in the library.
+     */
     @Test
     public void testGetLibraryMembers() throws Exception {
         testLibrary = new Library("Seattle");
-        Map<Integer, Patron> map = testLibrary.getLibraryMembers();
-        assertTrue(map.equals(testLibrary.getLibraryMembers()));
+        testLibrary.addPatron("Randal Hanford");
+        testLibrary.addPatron("Stuart Maclean");
+        testLibrary.addPatron("Russ Moul");
+        ArrayList<Patron> list = testLibrary.getLibraryMembers();
+        assertTrue(list.containsAll(testLibrary.getLibraryMembers()));
     }
 
     /** Test */
-    /* Kind of redundant. Just confirms that the list that is returned is actually
-     * the list of library items. */
+    /* Kind of redundant. Just confirms that the map that is returned is actually
+     * the map of library items. */
     @Test
     public void testGetCheckedOutItems() throws Exception {
         testLibrary = new Library("Seattle");

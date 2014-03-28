@@ -24,9 +24,9 @@ public class Music extends AbstractLibraryItem {
      * @param artist The performer on the recording
      * @param genre The music genre
      */
-    public Music(String title, String author, String publisher,
-                 Date publishedDate, MediaType mediaType,
-                 String artist, MusicGenre genre) {
+    public Music(final String title, final String author, final String publisher,
+                 final Date publishedDate, final MediaType mediaType,
+                 final String artist, final MusicGenre genre) {
         super(title, author, publisher, publishedDate);
         this.mediaType = mediaType;
         this.artist = artist;

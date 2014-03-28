@@ -26,8 +26,8 @@ public class Book extends AbstractLibraryItem {
      * @param bindingType the type of binding
      * @param pages the total number pages
      */
-    public Book(String title, String author, String publisher, Date publishedDate,
-                Binding bindingType, int pages) {
+    public Book(final String title, final String author, final String publisher, final Date publishedDate,
+                final Binding bindingType, final int pages) {
         super(title, author, publisher, publishedDate);
         this.binding = bindingType;
         this.pages = pages;
